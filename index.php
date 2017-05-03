@@ -58,7 +58,6 @@
                     <li><a href="who.php">Who</a></li>
                     <li><a href="#">How</a></li>
                     <li><a href="#">Product Design</a></li>
-                    <li><a href="#">Meet The Team</a></li>
                     <li><a href="#">References</a></li>
                     <li><a href="#">Appendix</a></li>
                     
@@ -129,7 +128,7 @@
                                 <!-- start definition 1 -->	
                                 <div class="col-lg-4 align-center">
                                     <div class="row">
-                                        <img src="images/circle1.png">
+                                        <img src="images/trusted-information.png">
                                     </div>
                                     
                                     <div class="row">
@@ -140,7 +139,7 @@
                                 <!-- start definition 2 -->             
                                 <div class="col-lg-4 align-center">
                                     <div class="row">
-                                        <img src="images/circle2.png">
+                                        <img src="images/care-advice.png">
                                     </div>
                                     
                                     <div class="row">
@@ -151,7 +150,7 @@
                                 <!-- start definition 3 -->           
                                 <div class="col-lg-4 align-center">
                                     <div class="row">
-                                        <img src="images/circle3.png">
+                                        <img src="images/integrated-profile.png">
                                     </div>
                                     
                                     <div class="row">
@@ -211,7 +210,6 @@
                         <li><a href="who.php">Who</a></li>
                         <li><a href="#">How</a></li>
                         <li><a href="#">Product Design</a></li>
-                        <li><a href="#">Meet The Team</a></li>
                         <li><a href="#">References</a></li>
                         <li><a href="#">Appendix</a></li>
                         
