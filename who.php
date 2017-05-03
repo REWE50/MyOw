@@ -58,7 +58,6 @@
                     <li class="active"><a href="who.php">Who</a></li>
                     <li><a href="#">How</a></li>
                     <li><a href="#">Product Design</a></li>
-                    <li><a href="#">Meet The Team</a></li>
                     <li><a href="#">References</a></li>
                     <li><a href="#">Appendix</a></li>
                     
@@ -173,7 +172,6 @@
                         <li class="active"><a href="who.php">Who</a></li>
                         <li><a href="#">How</a></li>
                         <li><a href="#">Product Design</a></li>
-                        <li><a href="#">Meet The Team</a></li>
                         <li><a href="#">References</a></li>
                         <li><a href="#">Appendix</a></li>
                         
