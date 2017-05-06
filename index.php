@@ -38,7 +38,7 @@
         	
      		<!-- MyOw logo -->
             <div class="col-lg-12" id="logo">
-            	<a href="index.php"><img src="images/logo.png"></a>
+            	<a href="index.php"><img src="images/myow-logo.png"></a>
             </div>
                             
             <!-- creating a button that will display when the navbar collapses for mobile viewing using data-attributes -->
@@ -55,8 +55,17 @@
                 
                     <!-- active class attached to "current" list item to show what page we are currently on -->
                     <li class="active"><a href="index.php">What</a></li>
-                    <li><a href="who.php">Who</a></li>
-                    <li><a href="#">How</a></li>
+                    <li><a href="who/persona-scenario.php">Who</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
+                        <!-- a nested unordered list to create a dropdown menu -->
+                        <!-- start of innder ul -->
+                        <ul class="dropdown-menu">
+                            <li><a href="how/use-case-actors.php">Use Case Actors</a></li>
+                            <li><a href="how/use-case-diagram.php">Use Case Diagram</a></li>
+                            <li><a href="how/written-use-cases.php">Written Use Cases</a></li>
+                        </ul><!-- end of inner ul -->
+                  </li>
                     <li><a href="#">Product Design</a></li>
                     <li><a href="#">References</a></li>
                     <li><a href="#">Appendix</a></li>
@@ -82,7 +91,7 @@
         	<!-- start main row 1 -->
             <div class="row">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                   	<img src="images/pic1.png" class="img-responsive">
+                   	<img src="images/main-banner.png" class="img-responsive">
 	            </div>
             </div><!-- end main row 1 -->
             
@@ -93,14 +102,13 @@
             <!-- start main row 2 -->
             <div class="row">
             	<!-- start video placeholder -->
-            	<div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-xs-12">
-                	<img src="images/vid-placeholder.png" class="img-responsive">
+            	<div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-xs-12"> <a href="#"><img src="images/vid-placeholder.png" class="img-responsive"></a>
                 </div><!-- end video placeholder -->
                 
                 <!-- start welcome text -->
                 <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 align-justify">
                 	<h1>What is MyOw?</h1>
-                    <p>We want the design to provide the user with confidence in the information provided so we are using professional logos which include a medical emblem. We also want to have a low number of screens so that users can quickly and easily access key medical information that may help save their pet's life. </p>
+                    <p>In the MyOw Pet Care App we want the design to provide the user with confidence in the information provided so we are using professional logos which include a medical emblem. We also want to have a low number of screens so that users can quickly and easily access key medical information that may help save their pet’s life. </p>
                 </div><!-- end welcome text -->
             </div><!-- end main row 2 -->
             
@@ -166,10 +174,9 @@
             <!-- start main row 4 -->
             <div class="row">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
-                	<h2><img src="images/pic2.png" class="img-responsive padding-left pull-right" id="dca">Digital Care Assistant</h2>
-                    <p>MyOw is an app which acts as a digital care assistant by providing information to maintain the animal's well-being, such as pet profile updates, pet profile sharing, pet specific information integration and pet appointments and reminders.</p>
-                    <p>The app will also be used to assess the current medical condition of a pet based on information provided by the user. By opening a dialogue with the user, it diagnoses the current medical condition of the animal.</p>
-                    <p>It then provides a two-phase set of solutions to help the animal, firstly suggesting medical treatments that can be administered by the user. If the user feels they need to visit a veterinarian, the app then connects the user with the most appropriate practice to treat the animal. It then sends that vet all the relevant data on the animal's medical situation, so he or she has a clear picture of the animal's current condition and its medical history.</p>
+                	<h2><img src="images/digital-care-assistant.png" class="img-responsive padding-left pull-right" id="dca">Digital Care Assistant</h2>
+                    <p>MyOw is an app which acts as a digital care assistant by providing information to maintain the animal's well-being, such as pet profile updates, pet profile sharing, pet specific information integration and pet appointments and reminders. </p>
+                    <p>The app will also be used to assess the current medical condition of a pet based on information provided by the user. By opening up a dialogue with the user, it diagnoses the current medical condition of the animal. It then provides a two-phase set of solutions to help the animal; firstly suggesting medical treatments that can be administered by the user. If the user feels they need to visit a veterinarian, the app then connects the user with the most appropriate practice to treat the animal. It then sends that vet all relevant data on the animal's medical situation, so he or she has a clear picture of the animal's current condition and its medical history. </p>
                     
                 </div>
             </div><!-- end main row 4 -->
