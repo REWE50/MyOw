@@ -280,7 +280,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!-- Custom JS -->
-    <script src="js/custom-scripts.js"></script>
+    <script src="js/home-custom-scripts.js"></script>
 </body>
 
 </html>
