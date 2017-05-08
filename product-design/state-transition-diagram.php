@@ -106,7 +106,7 @@
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h1>State Transition Diagram</h1>
-                    <img src="images/state_transition_diagram_symptom_checker.jpg" Alt="state transition diagram, symptom checker">
+                    <img src="../images/state_transition_diagram_symptom_checker.jpg" alt="state transition diagram, symptom checker" class="img-responsive">
 	           </div>
             </div><!-- end main row 1 -->
                         
