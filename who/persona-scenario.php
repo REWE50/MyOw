@@ -23,7 +23,7 @@
     <!--
     	Team 23 Digital Direct
         UXCD Assessment 3
-        2nd Draft 01/05/17
+        Bootstrap Website
     -->    
     
 </head>
@@ -63,12 +63,25 @@
                         <ul class="dropdown-menu">
                             <li><a href="../how/use-case-actors.php">Use Case Actors</a></li>
                             <li><a href="../how/use-case-diagram.php">Use Case Diagram</a></li>
-                            <li><a href="../how/written-use-cases.php">Written Use Cases</a></li>
+                            <li><a href="../how/use-case-uc1.php">Use Case UC-1</a></li>
+                            <li><a href="../how/use-case-uc2.php">Use Case UC-2</a></li>
+                            <li><a href="../how/use-case-uc3.php">Use Case UC-3</a></li>
                         </ul><!-- end of inner ul -->
                     </li>
-                    <li><a href="#">Product Design</a></li>
-                    <li><a href="#">References</a></li>
-                    <li><a href="#">Appendix</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product Design<b class="caret"></b></a>
+                        <!-- a nested unordered list to create a dropdown menu -->
+                        <!-- start of innder ul -->
+                        <ul class="dropdown-menu">
+                            <li><a href="../product-design/structure-map.php">Structure Map</a></li>
+                            <li><a href="../product-design/wireframes.php">Wireframes</a></li>
+                            <li><a href="../product-design/task-diagram.php">Task Diagram</a></li>
+                            <li><a href="../product-design/storyboard.php">Storyboard</a></li>
+                            <li><a href="../product-design/state-transition-diagram.php">State Transition Diagram</a></li>
+                        </ul><!-- end of inner ul -->
+                  </li>
+                    <li><a href="../references.php">References</a></li>
+                    <li><a href="../appendix.php">Appendix</a></li>
                     
                     <!--
                     <li class="dropdown">
@@ -138,20 +151,7 @@
                 </div>
             </div><!-- end main row 3 -->
         </div><!-- end main content -->
-        
-        
-        
-        
-        <!--
-        <div class="row">
-        	<div class="jumbotron align-center">
-            	<div class="row">
-            		What | Who | How | Product Design | Meet The Team | References | Appendix
-                </div>
-            </div>
-        </div>
-        --><!-- end row 1 -->
-        
+       
        	<!-- start footer -->
    	   	<div class="row" id="footer">
         	<!-- start of bottom navbar -->
@@ -171,11 +171,33 @@
                     
                         <!-- active class attached to "current" list item to show what page we are currently on -->
                         <li><a href="../index.php">What</a></li>
-                        <li class="active"><a href="../who.php">Who</a></li>
-                        <li><a href="#">How</a></li>
-                        <li><a href="#">Product Design</a></li>
-                        <li><a href="#">References</a></li>
-                        <li><a href="#">Appendix</a></li>
+                        <li class="active"><a href="persona-scenario.php">Who</a></li>
+                    	<li class="dropdown">
+                        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
+                        <!-- a nested unordered list to create a dropdown menu -->
+                        <!-- start of innder ul -->
+                            <ul class="dropdown-menu">
+                                <li><a href="../how/use-case-actors.php">Use Case Actors</a></li>
+                                <li><a href="../how/use-case-diagram.php">Use Case Diagram</a></li>
+                                <li><a href="../how/use-case-uc1.php">Use Case UC-1</a></li>
+                                <li><a href="../how/use-case-uc2.php">Use Case UC-2</a></li>
+                                <li><a href="../how/use-case-uc3.php">Use Case UC-3</a></li>
+                            </ul><!-- end of inner ul -->
+                    	</li>
+                    	<li class="dropdown">
+                        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Product Design<b class="caret"></b></a>
+                        <!-- a nested unordered list to create a dropdown menu -->
+                        <!-- start of innder ul -->
+                            <ul class="dropdown-menu">
+                                <li><a href="../product-design/structure-map.php">Structure Map</a></li>
+                                <li><a href="../product-design/wireframes.php">Wireframes</a></li>
+                                <li><a href="../product-design/task-diagram.php">Task Diagram</a></li>
+                                <li><a href="../product-design/storyboard.php">Storyboard</a></li>
+                                <li><a href="../product-design/state-transition-diagram.php">State Transition Diagram</a></li>
+                            </ul><!-- end of inner ul -->
+                        </li>
+                        <li><a href="../references.php">References</a></li>
+                    	<li><a href="../appendix.php">Appendix</a></li>
                         
                         <!--
                         <li class="dropdown">
@@ -192,31 +214,10 @@
                 </div>
             
         	</div><!-- end of bottom navbar -->
-            	
-                
-                
-                
-                
+
             <!-- start copyright and social media -->
             <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 container" id="copyright">
-            	
-                <!-- 
-            	<!-- FB icon - ->
-                <div class="col-lg-2 col-lg-offset-3 align-right green-bg">
-                	<a href="http://www.facebook.com" target="new"><img src="../images/fb.png" id="fb"></a>
-                </div>
-                
-                <!-- Copyright notice - ->
-                <div class="col-lg-3 align-center red-bg">
-                	Copyright MyOw <?php echo date("Y");?>
-                </div>
-                
-                <!-- Twitter icon - ->
-                <div class="col-lg-2 pull-left align-left white-bg">
-                	<a href="http://www.twitter.com" target="new"><img src="../images/twitter.png" id="twitter"></a>
-                </div>
-                -->
-            
+            	            
                 <table width="75%" cellspacing="2" cellpadding="2" class="align-table">
                   <tbody>
                     <tr>

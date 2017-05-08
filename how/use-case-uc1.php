@@ -101,103 +101,120 @@
        
         <!-- start main content -->
         <div id="main-content">
-                    
-        	<!-- start main row 1 -->
-            <div class="row container">
-            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h1>Use Case Actors</h1>
-                	<!-- start table of use cases actors and goals -->
-                    <table cellpadding="10" cellspacing="10" class="dark-grey-bg padding-five">
-                      <tr>
-                        
-                        <td width="40%" class="cell-top-left"><p><strong>ID</strong>: A-1<br>
-                          <strong>Actor</strong>: Pet Owner</p><p>A Pet Owner is a living person who has established an account on MyOw. They may be the actual pet's owner, or other care giver. Other care givers may include friends, relations or professionals who regularly take care of the pet. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>Diagnose Sick Pet (UC-1)</li>
-                            <li>Find nearest relevant Vet (UC-2)</li>
-                            <li>Share Current Pet Profile with Vet (UC-5.3)</li>
-                            <li>Maintain General Pet-Health (UC-3)</li>
-                            <li>Report Lost / Found Pet (UC-4)</li>
-                            <li>Receive Appointment / Medication Reminders (UC-5)</li>
-                            <li>Interact with Vets on Vorum (UC-6)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-2<br>
-                          <strong>Actor</strong>: Vet</p><p>A Vet is a living person who represents a Veterinary Practice on MyOw. They may be an actual Vet who may give medical advice, or other member of staff who may organise appointments. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>Receive Pet Profile Information (UC-7)</li>
-                            <li>Communicate With Pet Owners via Vorum (UC-8)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-3<br>
-                          <strong>Actor</strong>: AI Server</p><p>The AI Server is Google's TensorFlow open-source Artificial Intelligence Engine. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>Diagnose Written or Spoken Pet Symptoms from Pet Owner (UC-9)</li>
-                            <li>Find Pet Owner's Relevant Local Vet (UC-10)</li>
-                            <li>Find Pet Owner's Lost / Found Pets (UC-11)</li>
-                            <li>Provide Pet Specific Health Information to Pet Owner (UC-14)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                       
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-5<br>
-                          <strong>Actor</strong>: MyOw Server</p><p>The MyOw Server is a backend computer server that hosts the MyOw app. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>To Communicate With Pet Owner (UC-15)</li>
-                            <li>To Communicate With AI Server (UC-16)</li>
-                            <li>To Store Information For Pet Owner (UC-17)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-6<br>
-                          <strong>Actor</strong>: Google Maps API</p><p>Google Maps API is an interface to allow the app display interactive maps to the Pet Owner. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <p>Display Vet Location Details (UC-18)</p></td>
-                      </tr>
-                    </table><!-- end table of use cases actors and goals -->
 
-	           </div>
+        	<!-- start main row 1 -->
+            <div class="row">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
+                	<h1>Written Use Cases</h1>
+                    <div class="col-lg-12">
+                    	<h2>UC-1 Diagnose Pet</h2>
+                    </div>
+                    
+                    <div class="col-lg-12">
+                    	<strong>Parent</strong>: MyOw Pet Care app
+                    </div>
+                    
+                    <div class="col-lg-12">
+                    	<strong>Primary Actors</strong>: Pet Owner
+                    </div>
+                    
+                    <div class="col-lg-12">
+                    	<strong>Secondary Actors</strong>: MyOw Server, AI Server, Google Maps API
+                    </div>
+                    
+                    <div class="col-lg-12">
+                    	<strong>Brief Description/Goal</strong>: The Pet Owner has a sick pet and wants to determine if medical attention is warranted.
+                    </div>
+                    
+                    <div class="col-lg-12">
+                    	<strong>Preconditions</strong>: The Pet Owner must have an account with MyOw.
+The Pet Owner must have a data connection.
+The Pet Owner must be logged into their MyOw account. 
+                    </div>
+                    
+                    <div class="col-lg-12">
+                    	<strong>Success Guarantee</strong>: The Pet Owner knows whether their pet must be brought to a Vet or not.
+                    </div>
+                    
+                    <div class="col-lg-12">
+                      <table>
+                        <tr>
+                          <td>
+                            <b>Flow of Events</b>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p><strong>Main Success Scenario</strong>:</p>
+                            <ol>
+                              <li>The Pet Owner chooses the Symptoms Checker function of the app</li>
+                              <li>The MyOw Server asks the user to enter its pet's symptoms</li>
+                              <li>The Pet Owner enters the pet's symptoms orally</li>
+                              <li>The AI Server converts the user's speech to text</li>
+                              <li>The AI Server is passed the Pet Profile by the MyOw Server</li>
+                              <li>The AI Server diagnoses the pet</li>
+                              <li>The AI Server returns the diagnosis to the MyOw Server</li>
+                              <li>The MyOw Server displays the diagnosis to the Pet Owner</li>
+                            </ol>
+                            
+                            <p><strong>Extensions</strong>:</p>
+                            
+                            <p>8.a If the pet requires immediate medical attention,
+                                <ol>
+                                    <li>The AI Server follows Use Case 'Find Vet Practice' (<a href="written-use-case-2.php">UC-2</a>)</li>
+                                    <li>The Pet Owner's mobile device reports the Pet Owner's location to the AI Server</li>
+                                    <li>The AI Server accesses the MyOw Server and reads the Pet Profile to determine what kind of pet is to be treated</li>
+                                    <li>The AI Server accesses the Google Maps API to see what Vets are in the Pet Owner's area</li>
+                                    <li>The AI Server determines which is the most appropriate local Vet that is open, close to the Pet Owner and can treat their pet</li>
+                                    <li>The information is returned to the MyOw Server</li>
+                                    <li>The MyOw Server displays the information to the Pet Owner</li>
+                                    <li>If the Pet Owner clicks on the Vet suggested by the AI Server</li>
+                                    <li>The AI Server determines the most relevant open local Vet</li>
+                                    <li>The AI Server returns this data to the MyOw Server</li>
+                                    <li>The MyOw Server displays this data to the Pet Owner</li>
+                                    <ol>
+                                        <li>If the Pet Owner chooses a Vet to attend, </li>
+                                            <ol>
+                                                <li>The AI Server sends the Pet Profile to the chosen Vet</li>
+                                                <li>The AI Server makes an appointment with the Vet for the Pet Owner</li>
+                                            </ol>
+                                    </ol>
+                                </ol>
+                            </p>
+                            
+                            <p>8.b If the pet does not require immediate medical attention, the AI Server invites the Pet Owner to view the Pet-Health Tips section on the MyOw Server
+                                <ol>
+                                    <li>The Pet Owner may view the topics recommended by the AI Server</li>
+                                    <li>The Pet Owner may search for other topics of their own choosing</li>
+                                </ol>
+                            </p>
+                            
+                            <p>8.c If the pet does not require immediate medical attention, the AI Server may also invite the Pet Owner to view the Vorum on the MyOw Server
+                                <ol>
+                                    <li>The Pet Owner may reply to an existing thread</li>
+                                    <li>The Pet Owner may start a new thread asking a Vet for advice</li>
+                                </ol>
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+					</div>
+            	</div>
             </div><!-- end main row 1 -->
             
             <!--spacer -->
             <div class="spacer-row">
             </div><!-- end spacer row -->
-                                 
-            <!-- start main row 3 -->
-            <div class="row">
-            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
-                	<h2>Use Case Actors Context Diagram</h2>
-                    <img src="images/use-case-actors.png" class="img-responsive">
-                </div>
-            </div><!-- end main row 3 -->
             
-            <!--spacer -->
-            <div class="spacer-row">
-            </div><!-- end spacer row -->
+            <!-- start main row 2 -->
+            <div class="row">
+            	<div class="col-lg-8 col-lg-offset-2">
+                	<img src="images/diagnose-pet-flow.png" class="img-responsive">
+            	</div>
+            </div>           
             
         </div><!-- end main content -->
-                
+          
        	<!-- start footer -->
    	   	<div class="row" id="footer">
         	<!-- start of bottom navbar -->
@@ -217,33 +234,33 @@
                     
                         <!-- active class attached to "current" list item to show what page we are currently on -->
                         <li><a href="../index.php">What</a></li>
-                        <li><a href="../who/persona-scenario.php">Who</a></li>
-                        <li class="dropdown active">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
-                            <!-- a nested unordered list to create a dropdown menu -->
-                            <!-- start of innder ul -->
-                            <ul class="dropdown-menu">
-                                <li><a href="use-case-actors.php">Use Case Actors</a></li>
-                                <li><a href="use-case-diagram.php">Use Case Diagram</a></li>
-                                <li><a href="use-case-uc1.php">Use Case UC-1</a></li>
-                                <li><a href="use-case-uc2.php">Use Case UC-2</a></li>
-                                <li><a href="use-case-uc3.php">Use Case UC-3</a></li>
-                            </ul><!-- end of inner ul -->
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product Design<b class="caret"></b></a>
-                            <!-- a nested unordered list to create a dropdown menu -->
-                            <!-- start of innder ul -->
-                            <ul class="dropdown-menu">
-                                <li><a href="../product-design/structure-map.php">Structure Map</a></li>
-                                <li><a href="../product-design/wireframes.php">Wireframes</a></li>
-                                <li><a href="../product-design/task-diagram.php">Task Diagram</a></li>
-                                <li><a href="../product-design/storyboard.php">Storyboard</a></li>
-                                <li><a href="../product-design/state-transition-diagram.php">State Transition Diagram</a></li>
-                            </ul><!-- end of inner ul -->
-                        </li>
-                        <li><a href="../references.php">References</a></li>
-                        <li><a href="../appendix.php">Appendix</a></li>
+                    <li><a href="../who/persona-scenario.php">Who</a></li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
+                        <!-- a nested unordered list to create a dropdown menu -->
+                        <!-- start of innder ul -->
+                        <ul class="dropdown-menu">
+                            <li><a href="use-case-actors.php">Use Case Actors</a></li>
+                            <li><a href="use-case-diagram.php">Use Case Diagram</a></li>
+                            <li><a href="use-case-uc1.php">Use Case UC-1</a></li>
+                            <li><a href="use-case-uc2.php">Use Case UC-2</a></li>
+                            <li><a href="use-case-uc3.php">Use Case UC-3</a></li>
+                        </ul><!-- end of inner ul -->
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product Design<b class="caret"></b></a>
+                        <!-- a nested unordered list to create a dropdown menu -->
+                        <!-- start of innder ul -->
+                        <ul class="dropdown-menu">
+                            <li><a href="../product-design/structure-map.php">Structure Map</a></li>
+                            <li><a href="../product-design/wireframes.php">Wireframes</a></li>
+                            <li><a href="../product-design/task-diagram.php">Task Diagram</a></li>
+                            <li><a href="../product-design/storyboard.php">Storyboard</a></li>
+                            <li><a href="../product-design/state-transition-diagram.php">State Transition Diagram</a></li>
+                        </ul><!-- end of inner ul -->
+                  	</li>
+                    <li><a href="../references.php">References</a></li>
+                    <li><a href="../appendix.php">Appendix</a></li>
                         
                         <!--
                         <li class="dropdown">
@@ -259,11 +276,11 @@
                     </ul><!-- end of outer ul -->
                 </div>
             
-        	</div><!-- end of bottom navbar -->   
-                
+        	</div><!-- end of bottom navbar -->
+            	                
             <!-- start copyright and social media -->
             <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 container" id="copyright">
-            	           
+          
                 <table width="75%" cellspacing="2" cellpadding="2" class="align-table">
                   <tbody>
                     <tr>

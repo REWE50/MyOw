@@ -56,30 +56,30 @@
                     <!-- active class attached to "current" list item to show what page we are currently on -->
                     <li><a href="../index.php">What</a></li>
                     <li><a href="../who/persona-scenario.php">Who</a></li>
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
-                        <!-- a nested unordered list to create a dropdown menu -->
-                        <!-- start of innder ul -->
+                    <!-- a nested unordered list to create a dropdown menu -->
+                    <!-- start of innder ul -->
                         <ul class="dropdown-menu">
-                            <li><a href="use-case-actors.php">Use Case Actors</a></li>
-                            <li><a href="use-case-diagram.php">Use Case Diagram</a></li>
-                            <li><a href="use-case-uc1.php">Use Case UC-1</a></li>
-                            <li><a href="use-case-uc2.php">Use Case UC-2</a></li>
-                            <li><a href="use-case-uc3.php">Use Case UC-3</a></li>
+                            <li><a href="../how/use-case-actors.php">Use Case Actors</a></li>
+                            <li><a href="../how/use-case-diagram.php">Use Case Diagram</a></li>
+                            <li><a href="../how/use-case-uc1.php">Use Case UC-1</a></li>
+                            <li><a href="../how/use-case-uc2.php">Use Case UC-2</a></li>
+                            <li><a href="../how/use-case-uc3.php">Use Case UC-3</a></li>
                         </ul><!-- end of inner ul -->
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product Design<b class="caret"></b></a>
-                        <!-- a nested unordered list to create a dropdown menu -->
-                        <!-- start of innder ul -->
+                    <!-- a nested unordered list to create a dropdown menu -->
+                    <!-- start of innder ul -->
                         <ul class="dropdown-menu">
-                            <li><a href="../product-design/structure-map.php">Structure Map</a></li>
-                            <li><a href="../product-design/wireframes.php">Wireframes</a></li>
-                            <li><a href="../product-design/task-diagram.php">Task Diagram</a></li>
-                            <li><a href="../product-design/storyboard.php">Storyboard</a></li>
-                            <li><a href="../product-design/state-transition-diagram.php">State Transition Diagram</a></li>
+                            <li><a href="structure-map.php">Structure Map</a></li>
+                            <li><a href="wireframes.php">Wireframes</a></li>
+                            <li><a href="task-diagram.php">Task Diagram</a></li>
+                            <li><a href="storyboard.php">Storyboard</a></li>
+                            <li><a href="state-transition-diagram.php">State Transition Diagram</a></li>
                         </ul><!-- end of inner ul -->
-                  	</li>
+                    </li>
                     <li><a href="../references.php">References</a></li>
                     <li><a href="../appendix.php">Appendix</a></li>
                     
@@ -101,101 +101,15 @@
        
         <!-- start main content -->
         <div id="main-content">
-                    
-        	<!-- start main row 1 -->
+        
+          	<!-- start main row 1 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h1>Use Case Actors</h1>
-                	<!-- start table of use cases actors and goals -->
-                    <table cellpadding="10" cellspacing="10" class="dark-grey-bg padding-five">
-                      <tr>
-                        
-                        <td width="40%" class="cell-top-left"><p><strong>ID</strong>: A-1<br>
-                          <strong>Actor</strong>: Pet Owner</p><p>A Pet Owner is a living person who has established an account on MyOw. They may be the actual pet's owner, or other care giver. Other care givers may include friends, relations or professionals who regularly take care of the pet. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>Diagnose Sick Pet (UC-1)</li>
-                            <li>Find nearest relevant Vet (UC-2)</li>
-                            <li>Share Current Pet Profile with Vet (UC-5.3)</li>
-                            <li>Maintain General Pet-Health (UC-3)</li>
-                            <li>Report Lost / Found Pet (UC-4)</li>
-                            <li>Receive Appointment / Medication Reminders (UC-5)</li>
-                            <li>Interact with Vets on Vorum (UC-6)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-2<br>
-                          <strong>Actor</strong>: Vet</p><p>A Vet is a living person who represents a Veterinary Practice on MyOw. They may be an actual Vet who may give medical advice, or other member of staff who may organise appointments. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>Receive Pet Profile Information (UC-7)</li>
-                            <li>Communicate With Pet Owners via Vorum (UC-8)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-3<br>
-                          <strong>Actor</strong>: AI Server</p><p>The AI Server is Google's TensorFlow open-source Artificial Intelligence Engine. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>Diagnose Written or Spoken Pet Symptoms from Pet Owner (UC-9)</li>
-                            <li>Find Pet Owner's Relevant Local Vet (UC-10)</li>
-                            <li>Find Pet Owner's Lost / Found Pets (UC-11)</li>
-                            <li>Provide Pet Specific Health Information to Pet Owner (UC-14)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                       
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-5<br>
-                          <strong>Actor</strong>: MyOw Server</p><p>The MyOw Server is a backend computer server that hosts the MyOw app. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>To Communicate With Pet Owner (UC-15)</li>
-                            <li>To Communicate With AI Server (UC-16)</li>
-                            <li>To Store Information For Pet Owner (UC-17)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-6<br>
-                          <strong>Actor</strong>: Google Maps API</p><p>Google Maps API is an interface to allow the app display interactive maps to the Pet Owner. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <p>Display Vet Location Details (UC-18)</p></td>
-                      </tr>
-                    </table><!-- end table of use cases actors and goals -->
-
+                	<h1>Wireframes</h1>
+                    <p>Wireframes Go Here</p>
 	           </div>
             </div><!-- end main row 1 -->
-            
-            <!--spacer -->
-            <div class="spacer-row">
-            </div><!-- end spacer row -->
-                                 
-            <!-- start main row 3 -->
-            <div class="row">
-            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
-                	<h2>Use Case Actors Context Diagram</h2>
-                    <img src="images/use-case-actors.png" class="img-responsive">
-                </div>
-            </div><!-- end main row 3 -->
-            
-            <!--spacer -->
-            <div class="spacer-row">
-            </div><!-- end spacer row -->
-            
+                        
         </div><!-- end main content -->
                 
        	<!-- start footer -->
@@ -218,28 +132,28 @@
                         <!-- active class attached to "current" list item to show what page we are currently on -->
                         <li><a href="../index.php">What</a></li>
                         <li><a href="../who/persona-scenario.php">Who</a></li>
-                        <li class="dropdown active">
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
-                            <!-- a nested unordered list to create a dropdown menu -->
-                            <!-- start of innder ul -->
+                        <!-- a nested unordered list to create a dropdown menu -->
+                        <!-- start of innder ul -->
                             <ul class="dropdown-menu">
-                                <li><a href="use-case-actors.php">Use Case Actors</a></li>
-                                <li><a href="use-case-diagram.php">Use Case Diagram</a></li>
-                                <li><a href="use-case-uc1.php">Use Case UC-1</a></li>
-                                <li><a href="use-case-uc2.php">Use Case UC-2</a></li>
-                                <li><a href="use-case-uc3.php">Use Case UC-3</a></li>
+                                <li><a href="../how/use-case-actors.php">Use Case Actors</a></li>
+                                <li><a href="../how/use-case-diagram.php">Use Case Diagram</a></li>
+                                <li><a href="../how/use-case-uc1.php">Use Case UC-1</a></li>
+                                <li><a href="../how/use-case-uc2.php">Use Case UC-2</a></li>
+                                <li><a href="../how/use-case-uc3.php">Use Case UC-3</a></li>
                             </ul><!-- end of inner ul -->
                         </li>
-                        <li class="dropdown">
+                        <li class="dropdown active">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product Design<b class="caret"></b></a>
-                            <!-- a nested unordered list to create a dropdown menu -->
-                            <!-- start of innder ul -->
+                        <!-- a nested unordered list to create a dropdown menu -->
+                        <!-- start of innder ul -->
                             <ul class="dropdown-menu">
-                                <li><a href="../product-design/structure-map.php">Structure Map</a></li>
-                                <li><a href="../product-design/wireframes.php">Wireframes</a></li>
-                                <li><a href="../product-design/task-diagram.php">Task Diagram</a></li>
-                                <li><a href="../product-design/storyboard.php">Storyboard</a></li>
-                                <li><a href="../product-design/state-transition-diagram.php">State Transition Diagram</a></li>
+                                <li><a href="structure-map.php">Structure Map</a></li>
+                                <li><a href="wireframes.php">Wireframes</a></li>
+                                <li><a href="task-diagram.php">Task Diagram</a></li>
+                                <li><a href="storyboard.php">Storyboard</a></li>
+                                <li><a href="state-transition-diagram.php">State Transition Diagram</a></li>
                             </ul><!-- end of inner ul -->
                         </li>
                         <li><a href="../references.php">References</a></li>
@@ -259,11 +173,11 @@
                     </ul><!-- end of outer ul -->
                 </div>
             
-        	</div><!-- end of bottom navbar -->   
-                
+        	</div><!-- end of bottom navbar -->
+            	                
             <!-- start copyright and social media -->
             <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 container" id="copyright">
-            	           
+            	            
                 <table width="75%" cellspacing="2" cellpadding="2" class="align-table">
                   <tbody>
                     <tr>

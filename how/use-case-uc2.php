@@ -101,103 +101,94 @@
        
         <!-- start main content -->
         <div id="main-content">
-                    
-        	<!-- start main row 1 -->
-            <div class="row container">
-            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h1>Use Case Actors</h1>
-                	<!-- start table of use cases actors and goals -->
-                    <table cellpadding="10" cellspacing="10" class="dark-grey-bg padding-five">
-                      <tr>
-                        
-                        <td width="40%" class="cell-top-left"><p><strong>ID</strong>: A-1<br>
-                          <strong>Actor</strong>: Pet Owner</p><p>A Pet Owner is a living person who has established an account on MyOw. They may be the actual pet's owner, or other care giver. Other care givers may include friends, relations or professionals who regularly take care of the pet. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>Diagnose Sick Pet (UC-1)</li>
-                            <li>Find nearest relevant Vet (UC-2)</li>
-                            <li>Share Current Pet Profile with Vet (UC-5.3)</li>
-                            <li>Maintain General Pet-Health (UC-3)</li>
-                            <li>Report Lost / Found Pet (UC-4)</li>
-                            <li>Receive Appointment / Medication Reminders (UC-5)</li>
-                            <li>Interact with Vets on Vorum (UC-6)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-2<br>
-                          <strong>Actor</strong>: Vet</p><p>A Vet is a living person who represents a Veterinary Practice on MyOw. They may be an actual Vet who may give medical advice, or other member of staff who may organise appointments. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>Receive Pet Profile Information (UC-7)</li>
-                            <li>Communicate With Pet Owners via Vorum (UC-8)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-3<br>
-                          <strong>Actor</strong>: AI Server</p><p>The AI Server is Google's TensorFlow open-source Artificial Intelligence Engine. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>Diagnose Written or Spoken Pet Symptoms from Pet Owner (UC-9)</li>
-                            <li>Find Pet Owner's Relevant Local Vet (UC-10)</li>
-                            <li>Find Pet Owner's Lost / Found Pets (UC-11)</li>
-                            <li>Provide Pet Specific Health Information to Pet Owner (UC-14)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                       
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-5<br>
-                          <strong>Actor</strong>: MyOw Server</p><p>The MyOw Server is a backend computer server that hosts the MyOw app. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <ul>
-                            <li>To Communicate With Pet Owner (UC-15)</li>
-                            <li>To Communicate With AI Server (UC-16)</li>
-                            <li>To Store Information For Pet Owner (UC-17)</li>
-                          </ul></td>
-                      </tr>
-                      <tr>
-                        <td class="light-grey-bg">&nbsp;</td>
-                      </tr>
-                      <tr>
-                        
-                        <td class="cell-top-left"><p><strong>ID</strong>: A-6<br>
-                          <strong>Actor</strong>: Google Maps API</p><p>Google Maps API is an interface to allow the app display interactive maps to the Pet Owner. </p>
-                          <p><strong>Goals</strong>: </p>
-                          <p>Display Vet Location Details (UC-18)</p></td>
-                      </tr>
-                    </table><!-- end table of use cases actors and goals -->
 
-	           </div>
+        	<!-- start main row 1 -->
+            <div class="row">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
+                	<h1>Written Use Cases</h1>
+                    <div class="col-lg-12">
+                    	<h2>UC-2 Find Vet Practice</h2>
+                    </div>
+                    
+                    <div class="col-lg-12">
+                    	<strong>Parent</strong>: MyOw Pet Care app
+                    </div>
+                    
+                    <div class="col-lg-12">
+                    	<strong>Primary Actors</strong>: Pet Owner
+                    </div>
+                    
+                    <div class="col-lg-12">
+                    	<strong>Secondary Actors</strong>: MyOw Server, AI Server, Google Maps API
+                    </div>
+                    
+                    <div class="col-lg-12">
+                    	<strong>Brief Description/Goal</strong>: The Pet Owner wishes to find the nearest open Vet that can treat their pet. Simply choosing the nearest Vet that is open may not suit, as they may not be able to treat their type of pet. The AI Server reads the pet profile to determine what type of pet the Pet Owner has, and searches the Vets in the vicinity to determine the most appropriate Vet to send the Pet Owner to. </div>
+                    
+                    <div class="col-lg-12">
+                   	  <p><strong>Preconditions</strong>: </p>
+                    	<ul>
+                    	  <li>The Pet Owner must have an account with MyOw</li>
+                    	    <li>The Pet Owner must have a data connection</li>
+                    	    <li>The Pet Owner must be logged into their MyOw account</li>
+                    	    <li>The Pet Owner must have GPS/Location Services activated on their phone</li>
+                  	  </ul>
+                  </div>
+                    
+                    <div class="col-lg-12">
+                    	<strong>Success Guarantee</strong>: The Pet Owner receives details of their nearest open Vet that can treat their pet.</div>
+                    
+                    <div class="col-lg-12">
+                      <table>
+                        <tr>
+                          <td>
+                            <b>Flow of Events</b>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p><strong>Main Success Scenario</strong>:</p>
+                            <ol>
+                              <li>The Pet Owner chooses the Find Vet Practice section of the app</li>
+<li>The Pet Owner's mobile device reports the Pet Owner's location to the AI Server</li>
+<li>The AI Server accesses the MyOw Server and reads the Pet Profile to determine what kind of pet is to be treated</li>
+<li>The AI Server accesses the Google Maps API to see what Vets are in the Pet Owner's area</li>
+<li>The AI Server determines which is the most appropriate local Vet that is open, close to the Pet Owner and can treat their pet</li>
+<li>The information is returned to the MyOw Server </li>
+<li>The MyOw Server displays the information to the Pet Owner</li>
+<li>If the Pet Owner clicks on the Vet suggested by the AI Server </li>
+                            </ol>
+                            
+                            <p><strong>Extensions</strong>:</p>
+                            
+                            <p>8.aThe Pet Owner may contact the Vet by phone                                
+                            </p>
+                            
+                            <p>8.b The Pet Owner may contact the Vet by email 
+                                
+                            </p>
+                            
+                            <p>8.c The Pet Owner may ask for direction through the Google Maps API 
+                          </td>
+                        </tr>
+                      </table>
+					</div>
+            	</div>
             </div><!-- end main row 1 -->
             
             <!--spacer -->
             <div class="spacer-row">
             </div><!-- end spacer row -->
-                                 
-            <!-- start main row 3 -->
-            <div class="row">
-            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
-                	<h2>Use Case Actors Context Diagram</h2>
-                    <img src="images/use-case-actors.png" class="img-responsive">
-                </div>
-            </div><!-- end main row 3 -->
             
-            <!--spacer -->
-            <div class="spacer-row">
-            </div><!-- end spacer row -->
+            <!-- start main row 2 -->
+            <div class="row">
+            	<div class="col-lg-8 col-lg-offset-2">
+                	<img src="images/find-vet-practice-flow.png" class="img-responsive">
+            	</div>
+            </div>           
             
         </div><!-- end main content -->
-                
+        
        	<!-- start footer -->
    	   	<div class="row" id="footer">
         	<!-- start of bottom navbar -->
@@ -259,11 +250,15 @@
                     </ul><!-- end of outer ul -->
                 </div>
             
-        	</div><!-- end of bottom navbar -->   
+        	</div><!-- end of bottom navbar -->
+            	
+                
+                
+                
                 
             <!-- start copyright and social media -->
             <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 container" id="copyright">
-            	           
+                        
                 <table width="75%" cellspacing="2" cellpadding="2" class="align-table">
                   <tbody>
                     <tr>
