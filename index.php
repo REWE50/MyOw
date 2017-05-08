@@ -143,11 +143,11 @@
                     <!-- start db row 2 -->
                     <div class="row">
                         <!-- start 8-col centered div -->
-                        <div class="col-lg-8 col-lg-offset-2">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                             <!-- start new row to contain individual definitions -->
                             <div class="row align-table">
                                 <!-- start definition 1 -->	
-                                <div class="col-lg-4 align-center">
+                                <div class="col-lg-4 col-md-4 col-sm-4 align-center">
                                     <div class="row">
                                         <img src="images/trusted-information.png">
                                     </div>
@@ -158,7 +158,7 @@
                                 </div><!-- end definition 1 -->
                                 
                                 <!-- start definition 2 -->             
-                                <div class="col-lg-4 align-center">
+                                <div class="col-lg-4 col-md-4 col-sm-4 align-center">
                                     <div class="row">
                                         <img src="images/care-advice.png">
                                     </div>
@@ -169,7 +169,7 @@
                                 </div><!-- end definition 2 -->
                                 
                                 <!-- start definition 3 -->           
-                                <div class="col-lg-4 align-center">
+                                <div class="col-lg-4 col-md-4 col-sm-4 align-center">
                                     <div class="row">
                                         <img src="images/integrated-profile.png">
                                     </div>
