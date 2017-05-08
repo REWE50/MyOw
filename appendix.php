@@ -54,7 +54,7 @@
                 <ul class="nav navbar-nav">
                 
                     <!-- active class attached to "current" list item to show what page we are currently on -->
-                    <li class="active"><a href="index.php">What</a></li>
+                    <li><a href="index.php">What</a></li>
                     <li><a href="who/persona-scenario.php">Who</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
@@ -67,7 +67,7 @@
                             <li><a href="how/use-case-uc2.php">Use Case UC-2</a></li>
                             <li><a href="how/use-case-uc3.php">Use Case UC-3</a></li>
                         </ul><!-- end of inner ul -->
-                 	</li>
+                  	</li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product Design<b class="caret"></b></a>
                         <!-- a nested unordered list to create a dropdown menu -->
@@ -81,7 +81,7 @@
                         </ul><!-- end of inner ul -->
                     </li>
                     <li><a href="references.php">References</a></li>
-                    <li><a href="appendix.php">Appendix</a></li>
+                    <li class="active"><a href="appendix.php">Appendix</a></li>
                     
                     <!--
                     <li class="dropdown">
@@ -101,101 +101,17 @@
        
         <!-- start main content -->
         <div id="main-content">
+       
         	<!-- start main row 1 -->
-            <div class="row">
+            <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                   	<img src="images/main-banner.png" class="img-responsive">
-	            </div>
+                    <h1>Appendix</h1>
+                    <p>Appendix Goes Here</p>
+	           </div>
             </div><!-- end main row 1 -->
             
-            <!--spacer -->
-            <div class="spacer-row">
-            </div><!-- end spacer row -->
-            
-            <!-- start main row 2 -->
-            <div class="row">
-            	<!-- start video placeholder -->
-            	<div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-xs-12"> <a href="#"><img src="images/vid-placeholder.png" class="img-responsive"></a>
-                </div><!-- end video placeholder -->
-                
-                <!-- start welcome text -->
-                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 align-justify">
-                	<h1>What is MyOw?</h1>
-                    <p>In the MyOw Pet Care App we want the design to provide the user with confidence in the information provided so we are using professional logos which include a medical emblem. We also want to have a low number of screens so that users can quickly and easily access key medical information that may help save their pet’s life. </p>
-                </div><!-- end welcome text -->
-            </div><!-- end main row 2 -->
-            
-             <!--spacer -->
-            <div class="spacer-row">
-            </div><!-- end spacer row -->
-            
-            <!-- start main row 3 -->
-            <div class="row">
-            	<!-- start definitions banner (db) -->
-            	<div class="col-lg-12 definition-banner">
-                    <!-- start db row 1 -->
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1>What Defines Our Product</h1>
-                        </div>
-                    </div><!-- end db row 1 -->
-                    
-                    <!-- start db row 2 -->
-                    <div class="row">
-                        <!-- start 8-col centered div -->
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <!-- start new row to contain individual definitions -->
-                            <div class="row align-table">
-                                <!-- start definition 1 -->	
-                                <div class="col-lg-4 align-center">
-                                    <div class="row">
-                                        <img src="images/trusted-information.png">
-                                    </div>
-                                    
-                                    <div class="row">
-                                        <h3>Trusted Information</h3>
-                                    </div>
-                                </div><!-- end definition 1 -->
-                                
-                                <!-- start definition 2 -->             
-                                <div class="col-lg-4 align-center">
-                                    <div class="row">
-                                        <img src="images/care-advice.png">
-                                    </div>
-                                    
-                                    <div class="row">
-                                        <h3>Specific Care Advice</h3>
-                                    </div>
-                                </div><!-- end definition 2 -->
-                                
-                                <!-- start definition 3 -->           
-                                <div class="col-lg-4 align-center">
-                                    <div class="row">
-                                        <img src="images/integrated-profile.png">
-                                    </div>
-                                    
-                                    <div class="row">
-                                        <h3>Integrated Profile</h3>
-                                    </div>
-                                </div><!-- end definition 3 -->                  
-                            </div><!-- end row containing individual definitions -->
-                        </div><!-- end 8-col dentered div -->    
-                    </div><!-- end db row 2 --> 
-                </div><!-- end definitions banner (db) -->
-          	</div><!-- end main row 3 -->
-            
-            <!-- start main row 4 -->
-            <div class="row">
-            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
-                	<h2><img src="images/digital-care-assistant.png" class="img-responsive padding-left pull-right" id="dca">Digital Care Assistant</h2>
-                    <p>MyOw is an app which acts as a digital care assistant by providing information to maintain the animal's well-being, such as pet profile updates, pet profile sharing, pet specific information integration and pet appointments and reminders. </p>
-                    <p>The app will also be used to assess the current medical condition of a pet based on information provided by the user. By opening up a dialogue with the user, it diagnoses the current medical condition of the animal. It then provides a two-phase set of solutions to help the animal; firstly suggesting medical treatments that can be administered by the user. If the user feels they need to visit a veterinarian, the app then connects the user with the most appropriate practice to treat the animal. It then sends that vet all relevant data on the animal's medical situation, so he or she has a clear picture of the animal's current condition and its medical history. </p>
-                    
-                </div>
-            </div><!-- end main row 4 -->
         </div><!-- end main content -->
- 
-        
+       
        	<!-- start footer -->
    	   	<div class="row" id="footer">
         	<!-- start of bottom navbar -->
@@ -214,9 +130,9 @@
                     <ul class="nav navbar-nav">
                     
                         <!-- active class attached to "current" list item to show what page we are currently on -->
-                        <li class="active"><a href="index.php">What</a></li>
+                        <li><a href="index.php">What</a></li>
                         <li><a href="who/persona-scenario.php">Who</a></li>
-                    	<li class="dropdown">
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
                             <!-- a nested unordered list to create a dropdown menu -->
                             <!-- start of innder ul -->
@@ -241,7 +157,7 @@
                             </ul><!-- end of inner ul -->
                         </li>
                         <li><a href="references.php">References</a></li>
-                        <li><a href="appendix.php">Appendix</a></li>
+                        <li class="active"><a href="appendix.php">Appendix</a></li>
                         
                         <!--
                         <li class="dropdown">
@@ -257,7 +173,8 @@
                     </ul><!-- end of outer ul -->
                 </div>
             
-        	</div><!-- end of bottom navbar -->        
+        	</div><!-- end of bottom navbar -->
+            	      
                 
             <!-- start copyright and social media -->
             <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 container" id="copyright">
