@@ -111,7 +111,7 @@
                       <tr>
                         
                         <td width="40%" class="cell-top-left"><p><strong>ID</strong>: A-1<br>
-                          <strong>Actor</strong>: Pet Owner</p><p>A Pet Owner is a living person who has established an account on MyOw. They may be the actual pet's owner, or other care giver. Other care givers may include friends, relations or professionals who regularly take care of the pet. </p>
+                          <strong>Primary Actor</strong>: Pet Owner</p><p>A Pet Owner is a living person who has established an account on MyOw. They may be the actual pet's owner, or other care giver. Other care givers may include friends, relations or professionals who regularly take care of the pet. </p>
                           <p><strong>Goals</strong>: </p>
                           <ul>
                             <li>Diagnose Sick Pet (UC-1)</li>
@@ -129,7 +129,7 @@
                       <tr>
                         
                         <td class="cell-top-left"><p><strong>ID</strong>: A-2<br>
-                          <strong>Actor</strong>: Vet</p><p>A Vet is a living person who represents a Veterinary Practice on MyOw. They may be an actual Vet who may give medical advice, or other member of staff who may organise appointments. </p>
+                          <strong>Secondary Actor</strong>: Vet</p><p>A Vet is a living person who represents a Veterinary Practice on MyOw. They may be an actual Vet who may give medical advice, or other member of staff who may organise appointments. </p>
                           <p><strong>Goals</strong>: </p>
                           <ul>
                             <li>Receive Pet Profile Information (UC-7)</li>
@@ -142,7 +142,7 @@
                       <tr>
                         
                         <td class="cell-top-left"><p><strong>ID</strong>: A-3<br>
-                          <strong>Actor</strong>: AI Server</p><p>The AI Server is Google's TensorFlow open-source Artificial Intelligence Engine. </p>
+                          <strong>Secondary Actor</strong>: AI Server</p><p>The AI Server is Google's TensorFlow open-source Artificial Intelligence Engine. </p>
                           <p><strong>Goals</strong>: </p>
                           <ul>
                             <li>Diagnose Written or Spoken Pet Symptoms from Pet Owner (UC-9)</li>
@@ -157,7 +157,7 @@
                       <tr>
                        
                         <td class="cell-top-left"><p><strong>ID</strong>: A-5<br>
-                          <strong>Actor</strong>: MyOw Server</p><p>The MyOw Server is a backend computer server that hosts the MyOw app. </p>
+                          <strong>Secondary Actor</strong>: MyOw Server</p><p>The MyOw Server is a backend computer server that hosts the MyOw app. </p>
                           <p><strong>Goals</strong>: </p>
                           <ul>
                             <li>To Communicate With Pet Owner (UC-15)</li>
@@ -171,7 +171,7 @@
                       <tr>
                         
                         <td class="cell-top-left"><p><strong>ID</strong>: A-6<br>
-                          <strong>Actor</strong>: Google Maps API</p><p>Google Maps API is an interface to allow the app display interactive maps to the Pet Owner. </p>
+                          <strong>Secondary Actor</strong>: Google Maps API</p><p>Google Maps API is an interface to allow the app display interactive maps to the Pet Owner. </p>
                           <p><strong>Goals</strong>: </p>
                           <p>Display Vet Location Details (UC-18)</p></td>
                       </tr>
