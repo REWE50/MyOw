@@ -111,69 +111,24 @@
 	<!-- start main container -->
     <div class="container white-bg">
 
-
 		<!-- start main content -->
         <div id="main-content">
         
           	<!-- start main row 1 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                	<div class="row">
-                    	<div class="col-lg-12">
-                    		<h1>Wireframes</h1>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
+                	<h1>State Transition Diagram</h1>
+                    <h2>All Functions</h2>
+           	   </div>
+            </div><!-- end main row 1 -->
+            
+            <div class="row container">
+            	<div class="col-lg-12 col-md-10 col-md-offset-1"><img src="images/state-transition-diagram-2.png" class="img-responsive" alt="Full App State Transition Diagram">
+       	       </div>
+            </div><!-- end main row 1 -->
                         
-                        <div class="col-lg-12">
-                    		<img src="images/home-wire.png" alt="Home Page Wireframe" class="img-responsive">
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        
-                        <div class="spacer-row">
-                        </div>
-                        
-                        <div class="col-lg-12">
-                    		<img src="images/pet-profile-wire.png" alt="Pet Profile Wireframe" class="img-responsive">
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        
-                        <div class="spacer-row">
-                        </div>
-                        
-                        <div class="col-lg-12">
-                    		<img src="images/lost-and-found-wire.png" alt="Lost and Found Wireframe" class="img-responsive">
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        
-                        <div class="spacer-row">
-                        </div>
-                        
-                        <div class="col-lg-12">
-                    		<img src="images/vorum-wire.png" alt="Vorum Wireframe" class="img-responsive">
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        
-                        <div class="spacer-row">
-                        </div>
-                        
-                        <div class="col-lg-12">
-                    		<img src="images/general-health-tips-wire.png" alt="General Health Tips Wireframe" class="img-responsive">
-                        </div>  
-                     </div>
-                    </div>
-	           </div>
-            </div><!-- end main row 1 -->         
         </div><!-- end main content -->
+      
     </div><!-- end main container -->
     
     

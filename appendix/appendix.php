@@ -28,9 +28,9 @@
     
 </head>
 
-<body>
+<body>  
 
-	<!-- start fluid container containing logo top fixed navbar -->
+    <!-- start fluid container containing logo top fixed navbar -->
     <div class="container-fluid navbar navbar-custom navbar-fixed-top no-gutters">
         <!-- start row containing logo -->
         <div class="row white-bg no-gutters">
@@ -60,7 +60,7 @@
                         <!-- active class attached to "current" list item to show what page we are currently on -->
                         <li><a href="../index.php">What</a></li>
                         <li><a href="../who/persona-scenario.php">Who</a></li>
-                        <li class="dropdown active">
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
                             <!-- a nested unordered list to create a dropdown menu -->
                             <!-- start of innder ul -->
@@ -87,7 +87,7 @@
                             </ul><!-- end of inner ul -->
                         </li>
                         <li><a href="../references.php">References</a></li>
-                        <li><a href="../appendix/appendix.php">Appendix</a></li>
+                        <li class="active"><a href="../appendix/appendix.php">Appendix</a></li>
                         
                         <!--
                         <li class="dropdown">
@@ -105,115 +105,192 @@
             </div><!-- end top fixed navbar --> 
         </div><!-- end div containing navbar -->
     </div><!-- end fluid container containing logo top fixed navbar -->
-
-
-
-	<!-- start main container -->
-    <div class="container white-bg">
-
-
-		<!-- start main content -->
-        <div id="main-content">
-
-        	<!-- start main row 1 -->
-            <div class="row">
-            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
-                	<h1>Written Use Cases</h1>
-                    <div class="col-lg-12">
-                    	<h2>UC-3 Maintain Pet Health</h2>
-                    </div>
-                    
-                    <div class="col-lg-12">
-                    	<strong>Parent</strong>: MyOw Pet Care App
-                    </div>
-                    
-                    <div class="col-lg-12">
-                    	<strong>Primary Actors</strong>: Pet Owner
-                    </div>
-                    
-                    <div class="col-lg-12">
-                   	<strong>Secondary Actors</strong>: MyOw Server, AI Server</div>
-                    
-                    <div class="col-lg-12">
-                    	<strong>Brief Description/Goal</strong>: To keep their pet healthy, a Pet Owner may search the app for general pet-health information. </div>
-                    
-                    <div class="col-lg-12">
-                   	  <p><strong>Preconditions</strong>: </p>
-                    	<ul>
-                    	  <li>The Pet Owner must have an account with MyOw</li>
-                    	    <li>The Pet Owner must have a data connection</li>
-                    	    <li>The Pet Owner must be logged into their MyOw account</li>
-                  	  </ul>
-                  </div>
-                    
-                    <div class="col-lg-12">
-                    	<strong>Success Guarantee</strong>: The  Pet Owner has received information for their given query.</div>
-                    
-                    <div class="col-lg-12">
-                      <table>
-                        <tr>
-                          <td>
-                            <br>
-                            <b>Flow of Events</b>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p><strong>Main Success Scenario</strong>:</p>
-                            <ol>
-                              <li>	The Pet Owner issues a verbal command to open the app</li>
-<li>The AI Server hears the command</li>
-<li>The AI Server checks the command against a list of Pet Owner approved unlock commands</li>
-<li>The Pet Owner chooses the General Pet-Health Tips section of the app</li>
-<li>The MyOw Server returns a list of topics of Vet-verified Pet Health Information</li>
-<li>The Pet Owner chooses a topic </li>
-<li>	The MyOw Server presents the information to the Pet Owner</li>
-                            </ol>
-                            
-                            <p><strong>Extensions</strong>:</p>
-                            
-                            <p>3.a If the AI Server does not receive an approved Pet Owner unlock command, it will not unlock the device                            </p>
-                            <ol>
-                                    <li>The Pet Owner may attempt to unlock the device by providing an approved unlock command</li>
-                                    
-                            </ol>
-                            <p>5.a If the Pet Owner cannot find the topic they are looking for, the MyOw Server invites them to visit the Vorum                            </p>
-                            <ol>
-                                    <li>The Pet Owner can reply to existing threads</li>
-                                    <li>The Pet Owner can  open a new thread                                    </li>
-                            </ol></td>
-                        </tr>
-                        <tr>
-                          <td>&nbsp;</td>
-                        </tr>
-                      </table>
-					</div>
-            	</div>
-            </div><!-- end main row 1 -->
-            
-            <!--spacer -->
-            <div class="spacer-row">
-            </div><!-- end spacer row -->
+    
+    
+    
+       
+        
+    <!-- start main container -->
+    <div class="container white-bg">  
+        <!-- start main content -->
+        <div id="main-content">       
             
             <!-- start main row 2 -->
-            <div class="row">
-            	<div class="col-lg-8 col-lg-offset-2">
-                	<img src="images/maintain-pet-health-flow.png" class="img-responsive">
-            	</div>
-            </div>           
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h2>Design Process</h2>
+                    <p>We firstly looked at the branding of the MyOw brand, via logos, fonts and colours.</p>
+                </div>
+            </div><!-- end main row 2 -->
+            
+            <!-- start main row 3 -->
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h2>Initial Sketches</h2>
+                    <div class="row">
+                    	<div class="col-lg-4">
+                        	<img src="" class="img-responsive">
+                        </div>
+                        
+                        <div class="col-lg-4">
+                        	<img src="" class="img-responsive">
+                        </div>
+                        
+                        <div class="col-lg-4">
+                        	<img src="" class="img-responsive">
+                        </div>
+                    </div>
+	           </div>
+            </div><!-- end main row 3 -->
+            
+            
+            <!-- start main row 4 -->
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h2>Mindmap</h2>
+                    <img src="" class="img-responsive">
+                    <p>We began the process by highlighting the 5 key areas that the app focuses on. In order of importance according to our user research they are, AI Symptom checker, Pet profile, Ai lost & found Checker, pet health guidance and an Emergency Vet finder. From there we tried to extract all the core feeling and actions that comes to mind when thinking about MyOw.</p>
+                    <p>To view a live more extended version of the mind map please click on the link provided, MyOw Mind Map</p>
+                </div>
+            </div><!-- end main row 4 -->
+            
+            
+            <!-- start main row 5 -->
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h2>The Design Process</h2>
+                    <h3>The Logo</h3>
+                    <p>As can be seen from  the three pages of sketches, there was a good deal of thought put into the MyOw logo. From the work done on the Mood Board, Mind Map and discussions we had over several meetings we knew what we wanted to tell the viewer. Below are a several examples of earlier revisions of the logo.</p>
+                    <img src="" class="img-responsive">
+                </div>
+            </div><!-- end main row 5 -->
+            
+            
+            <!-- start main row 6 -->
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h1>Colour</h1> 
+                    <p>The colour palette was based on the colours of a Peacocks. This is naturally formed in nature and so a more organic palette.  To veer away from the palit being all strong colours, pale shades were chosen. </p>
+                    <img src="" class="img-responsive">
+                    <img src="" class="img-responsive">
+                    
+                    <table width="100%" border="1" cellpadding="0" cellspacing="0">
+                    	<tr>
+                        	<td width="16%">Colour:</td>
+                            <td width="16%">Light Blue</td>
+                            <td width="16%">Mid Blue</td>
+                            <td width="16%">Purple</td>
+                            <td width="16%">Pale Yellow</td>
+                            <td width="16%">Green</td>
+                        </tr>
+                        <tr>
+                        	<td>Hex:</td>
+                            <td>#E7F3F9</td>
+                            <td>#118ECE</td>
+                            <td>#A695C7</td>
+                            <td>#FBFAEB</td>
+                            <td>#66cc33</td>
+                        </tr>       
+                    </table>
+                </div>
+            </div><!-- end main row 6 -->
+            
+            
+            <!-- start main row 7 -->
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h2>Typography</h2>
+                    <p>We initially looked at a very thick font, based on Walibi Bold but then outlined and edited to suit the exact style we were going for. This style was eventually dropped after a meeting in which the group were unable to all agree on a final logo Design.</p>
+
+					<p>The final logo design uses the free font Odin Rounded Regular which was created by Frank Hemmekam, it’s clean and linear look invokes a sense of trust that is needed for a medical application. The secondary Sans-serif fonts were chosen to compliment each other and for their ease of readability, as the app advises its users on what might be a life or death situation. A key factor was to clearly make out every letter on the page. Oswald Regular was chosen for the Secondary Font to be used in headings and Work-Sans Regular for the Sans-serif font which will be used for the majority of the body text. The Tertiary font Quicksand Book was chosen to directly complement the logo font it has a similar look and feel and will predominantly be used for personal headings and messages throughout the app and other forms of media.</p>
+                    
+                    <table width="100%" border="2" cellpadding="0" cellspacing="0">
+                    	<tr>
+                        	<td width="25%" id="logo-font">Logo Font</td>
+                            <td width="25%" id="secondary-font">Secondary Font</td>
+                            <td width="25%" id="sans-serif-font">Sans-Serif Font</td>
+                            <td width="25%" id="tertiary-font">Tertiary Font</td>
+                        </tr>
+                        <tr>
+                        	<td>Odin Rounded Regular</td>
+                            <td>Oswald Regular</td>
+                            <td>Work Sans Regular</td>
+                            <td>Quicksand Book</td>
+                        </tr>
+                    </table>
+                </div>
+            </div><!-- end main row 7 -->
+            
+            
+            <!-- start main row 8 -->
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h2>App Research</h2>
+                    <p>In consideration for designing the phone app I had noticed a recent trend from bottom navigation on phone apps.</p>
+                    <img src="" class="img-responsive">
+                    <img src="" class="img-responsive">
+                    <img src="" class="img-responsive">
+                    <p>There has been a shift towards this bottom navigation. Facebook are currently trialing bottom navigation - (<a href="http://www.androidpolice.com/2017/02/11/facebook-testing-bottom-navigation-bar-app/" target="_blank">http://www.androidpolice.com/2017/02/11/facebook-testing-bottom-navigation-bar-app/</a>).</p>
+                    <p>In Steven Hoober research (<a href="http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php" target="_blank">http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php</a>) he found that 49% of people use their thumbs to navigate their phones. A top navigation bar is not within this reach, hence the move. Tha navigation should be top level get to areas and should contain no more than five icons (<a href="http://babich.biz/perfect-bottom-navigation-for-mobile-app/" target="_blank">http://babich.biz/perfect-bottom-navigation-for-mobile-app/</a>)</p>
+                    <p>These all helped within the design process. </p>
+                </div>
+            </div><!-- end main row 8 -->
+            
+            
+            <!-- start main row 9 -->
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h2>App Sketches</h2>
+                    <p>We firstly looked at the branding of the MyOw brand, via logos, fonts and colours.</p>
+                    <img src="" class="img-responsive">
+                    <img src="" class="img-responsive">
+                    <img src="" class="img-responsive">
+                </div>
+            </div><!-- end main row 9 -->
+            
+            
+            <!-- start main row 10 -->
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h2>App Development</h2>
+                    
+                    <img src="" class="img-responsive">
+                    <img src="" class="img-responsive">
+                    <img src="" class="img-responsive">
+                    <img src="" class="img-responsive">
+                </div>
+            </div><!-- end main row 10 -->
+            
+            
+            <!-- start main row 11 -->
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h2>Website Development</h2>
+                    <p>From our initial prototype, our original Bootstrap website went through a number of iterations.</p>
+                    <p>It primarily stuck to the original design, but we trialled a fixed bottom navigation bar, but decided against it as it took up too much space from the site's content.</p>
+                    <img src="site-1.png" class="img-responsive">
+                    <br>
+                    <img src="site-2.png" class="img-responsive">
+                    <br>
+                    <img src="site-3.png" class="img-responsive">
+                    <br>
+                    <img src="site-4.png" class="img-responsive">
+                    <br>
+                    <img src="site-6.png" class="img-responsive">
+                </div>
+            </div><!-- end main row 11 -->
+            
+            
+            
             
         </div><!-- end main content -->
-        
-        
-        
-        
-        
-      
     </div><!-- end main container -->
+            
+              
+            
+          
     
-    
-    
-    
+
     <!-- start fluid container containing bottom navbar and social media/copyright -->
     <div class="container-fluid nav-bg no-gutters" id="bottom-nav-container">
         <!-- start div containing navbar AND copyright/social media -->
@@ -234,9 +311,9 @@
                     <ul class="nav navbar-nav">
                     
                         <!-- active class attached to "current" list item to show what page we are currently on -->
-                        <li><a href="../index.php">What</a></li>
+                        <li class="active"><a href="../index.php">What</a></li>
                         <li><a href="../who/persona-scenario.php">Who</a></li>
-                        <li class="dropdown active">
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
                             <!-- a nested unordered list to create a dropdown menu -->
                             <!-- start of innder ul -->
@@ -297,10 +374,9 @@
             </div><!-- row containing copyright and social media div -->
         </div><!-- end div containing navbar AND copyright/social media -->
     </div><!-- end fluid container containing bottom navbar and social media/copyright -->
-    
-    
-    
-    
+ 
+ 
+ 
     
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -308,7 +384,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
     <!-- Custom JS -->
-    <script src="../js/custom-scripts.js"></script>
+    <script src="../js/home-custom-scripts.js"></script>
 </body>
 
 </html>
