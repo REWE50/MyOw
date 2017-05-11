@@ -128,6 +128,7 @@
                         
                         <div class="col-lg-12">
                     		<img src="images/home-wire.png" alt="Home Page Wireframe" class="img-responsive">
+                            <br><br>
                         </div>
                     </div>
                     
@@ -138,6 +139,7 @@
                         
                         <div class="col-lg-12">
                     		<img src="images/pet-profile-wire.png" alt="Pet Profile Wireframe" class="img-responsive">
+                            <br><br>
                         </div>
                     </div>
                     
@@ -148,6 +150,7 @@
                         
                         <div class="col-lg-12">
                     		<img src="images/lost-and-found-wire.png" alt="Lost and Found Wireframe" class="img-responsive">
+                            <br><br>
                         </div>
                     </div>
                     
@@ -158,6 +161,7 @@
                         
                         <div class="col-lg-12">
                     		<img src="images/vorum-wire.png" alt="Vorum Wireframe" class="img-responsive">
+                            <br><br>
                         </div>
                     </div>
                     

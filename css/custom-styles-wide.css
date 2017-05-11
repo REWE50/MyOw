@@ -282,6 +282,13 @@ img {
 	margin-right: 15px;
 }
 
+
+#sb4,#sb5,#sb6
+{
+	padding-top: 25px;
+}
+
+
 .top-nav-styling
 {
 	background-color: #14aee0;
@@ -461,6 +468,19 @@ img {
 		font-size: 18px;
 		padding: 0px;
 	}
+	
+	#sb2,#sb5,#sb6
+	{
+		padding-top: 0px;
+	}
+	#sb3,#sb4
+	{
+		padding-top: 25px;
+	}
+
+	
+
+
  }
  
  
@@ -512,4 +532,20 @@ img {
 	{
 		border-top: 2px solid #000;
 	}
+	
+	#sb2,#sb3,#sb4,#sb5,#sb6
+	{
+		padding-top: 0px;
+	}
+	
+	#sb2,#sb6
+	{
+		padding-top: 55px;
+	}
+	
+	
+	
+	
+	
+	
 }

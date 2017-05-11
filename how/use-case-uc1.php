@@ -119,9 +119,13 @@
             <div class="row">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
                 	<h1>Written Use Cases</h1>
-                    <div class="col-lg-12">
-                    	<h2>UC-1 Diagnose Pet</h2>
-                    </div>
+                </div>
+            </div>    
+            
+            <div class="row">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
+                    
+                    <h2>UC-1 Diagnose Pet</h2>
                     
                     <div class="col-lg-12">
                     	<strong>Parent</strong>: MyOw Pet Care App
@@ -166,7 +170,10 @@
                               <li>The Pet Owner chooses the Symptoms Checker function of the app</li>
                               <li>The MyOw Server asks the user to enter its pet's symptoms</li>
                               <li>The Pet Owner enters the pet's symptoms orally</li>
+                              <li>The Pet Owner's voice is displayed visually on screen so they can see that their voice has been heard</li>
                               <li>The AI Server converts the user's speech to text</li>
+                              <li>The AI Server returns the search terms to the MyOw Server</li>
+                              <li>The MyOw Server displays the search terms in the Search Bar for the Pet Owner</li>
                               <li>The AI Server is passed the Pet Profile by the MyOw Server</li>
                               <li>The AI Server diagnoses the pet</li>
                               <li>The AI Server returns the diagnosis to the MyOw Server</li>
@@ -175,7 +182,7 @@
                             
                             <p><strong>Extensions</strong>:</p>
                             
-                            <p>8.a If the pet requires immediate medical attention,
+                            <p>11.a If the pet requires immediate medical attention,
                                 <ol>
                                     <li>The AI Server follows Use Case 'Find Vet Practice' (<a href="written-use-case-2.php">UC-2</a>)</li>
                                     <li>The Pet Owner's mobile device reports the Pet Owner's location to the AI Server</li>
@@ -184,29 +191,25 @@
                                     <li>The AI Server determines which is the most appropriate local Vet that is open, close to the Pet Owner and can treat their pet</li>
                                     <li>The information is returned to the MyOw Server</li>
                                     <li>The MyOw Server displays the information to the Pet Owner</li>
-                                    <li>If the Pet Owner clicks on the Vet suggested by the AI Server</li>
-                                    <li>The AI Server determines the most relevant open local Vet</li>
-                                    <li>The AI Server returns this data to the MyOw Server</li>
-                                    <li>The MyOw Server displays this data to the Pet Owner</li>
+                                    <li>If the Pet Owner clicks on the Vet suggested by the AI Server,</li>
                                     <ol>
-                                        <li>If the Pet Owner chooses a Vet to attend, </li>
-                                            <ol>
-                                                <li>The AI Server sends the Pet Profile to the chosen Vet</li>
-                                                <li>The AI Server makes an appointment with the Vet for the Pet Owner</li>
-                                            </ol>
+                                      <li>The Pet Owner may contact the Vet by phone</li>
+                                      <li>The Pet Owner may contact the Vet by email</li>
+                                      <li>The Pet Owner may ask for directions through the Google Maps API</li>
+                                      
                                     </ol>
                                 </ol>
                             </p>
                             
-                            <p>8.b If the pet does not require immediate medical attention, the AI Server invites the Pet Owner to view the Pet-Health Tips section on the MyOw Server
+                            <p>11.b If the pet does not require immediate medical attention, the AI Server invites the Pet Owner to view the Pet-Health Tips section on the MyOw Server
                                 <ol>
                                     <li>The Pet Owner may view the topics recommended by the AI Server</li>
                                     <li>The Pet Owner may search for other topics of their own choosing</li>
                                 </ol>
                             </p>
                             
-                            <p>8.c If the pet does not require immediate medical attention, the AI Server may also invite the Pet Owner to view the Vorum on the MyOw Server
-                                <ol>
+                            <p>11.c If the pet does not require immediate medical attention, the AI Server may also invite the Pet Owner to view the Vorum on the MyOw Server
+                            <ol>
                                     <li>The Pet Owner may reply to an existing thread</li>
                                     <li>The Pet Owner may start a new thread asking a Vet for advice</li>
                                 </ol>

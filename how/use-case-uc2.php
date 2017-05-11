@@ -112,16 +112,17 @@
     <div class="container white-bg">
 
 
-		<!-- start main content -->
-        <div id="main-content">
-
-        	<!-- start main row 1 -->
+		<!-- start main row 1 -->
             <div class="row">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
                 	<h1>Written Use Cases</h1>
-                    <div class="col-lg-12">
-                    	<h2>UC-2 Find Vet Practice</h2>
-                    </div>
+                </div>
+            </div>    
+            
+            <div class="row">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
+                    
+                    <h2>UC-2 Find Vet Practice</h2>
                     
                     <div class="col-lg-12">
                     	<strong>Parent</strong>: MyOw Pet Care App

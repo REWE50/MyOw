@@ -117,7 +117,7 @@
         
         <!-- start main row 1 -->
             <div class="row container">
-            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            	<div class="col-lg-12">
                 	<h1>Storyboard</h1>
 	           </div>
             </div><!-- end main row 1 -->
@@ -126,30 +126,28 @@
             <div class="row container">
             	<div class="col-lg-12">
                 	<div class="row">
-                   		<div class="col-lg-4">
+                    	<br>
+                   		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="sb1">
                     		<img src="images/storyboard-1.png" class="img-responsive" alt="Storyboard 1">
                       	</div>
                         
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="sb2">
                     		<img src="images/storyboard-2.png" class="img-responsive" alt="Storyboard 2">
                         </div>
                         
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="sb3">
                    			<img src="images/storyboard-3.png" class="img-responsive" alt="Storyboard 3">
                         </div>
-                    </div>
                     
-                    
-                    <div class="row">
-                   		<div class="col-lg-4">
+                   		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="sb4">
                     		<img src="images/storyboard-4.png" class="img-responsive" alt="Storyboard 4">
                       	</div>
                         
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="sb5">
                     		<img src="images/storyboard-5.png" class="img-responsive" alt="Storyboard 5">
                         </div>
                         
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="sb6">
                    			<img src="images/storyboard-6.png" class="img-responsive" alt="Storyboard 6">
                         </div>
                     </div>

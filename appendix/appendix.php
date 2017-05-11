@@ -115,29 +115,30 @@
         <!-- start main content -->
         <div id="main-content">       
             
-            <!-- start main row 2 -->
+            
+            <!-- 
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h2>Design Process</h2>
                     <p>We firstly looked at the branding of the MyOw brand, via logos, fonts and colours.</p>
                 </div>
-            </div><!-- end main row 2 -->
+            </div> -->
             
             <!-- start main row 3 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <h2>Initial Sketches</h2>
                     <div class="row">
-                    	<div class="col-lg-4">
-                        	<img src="" class="img-responsive">
+                    	<div class="col-lg-12">
+                        	<img src="images/appendix-1.png" class="img-responsive">
                         </div>
                         
-                        <div class="col-lg-4">
-                        	<img src="" class="img-responsive">
+                        <div class="col-lg-12">
+                        	<img src="images/appendix-2.png" class="img-responsive">
                         </div>
                         
-                        <div class="col-lg-4">
-                        	<img src="" class="img-responsive">
+                        <div class="col-lg-12">
+                        	<img src="images/appendix-3.png" class="img-responsive">
                         </div>
                     </div>
 	           </div>
@@ -148,7 +149,7 @@
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h2>Mindmap</h2>
-                    <img src="" class="img-responsive">
+                    <img src="images/appendix-4.png" class="img-responsive">
                     <p>We began the process by highlighting the 5 key areas that the app focuses on. In order of importance according to our user research they are, AI Symptom checker, Pet profile, Ai lost & found Checker, pet health guidance and an Emergency Vet finder. From there we tried to extract all the core feeling and actions that comes to mind when thinking about MyOw.</p>
                     <p>To view a live more extended version of the mind map please click on the link provided, MyOw Mind Map</p>
                 </div>
@@ -161,7 +162,7 @@
                 	<h2>The Design Process</h2>
                     <h3>The Logo</h3>
                     <p>As can be seen from  the three pages of sketches, there was a good deal of thought put into the MyOw logo. From the work done on the Mood Board, Mind Map and discussions we had over several meetings we knew what we wanted to tell the viewer. Below are a several examples of earlier revisions of the logo.</p>
-                    <img src="" class="img-responsive">
+                    <img src="images/appendix-5.png" class="img-responsive">
                 </div>
             </div><!-- end main row 5 -->
             
@@ -171,8 +172,8 @@
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h1>Colour</h1> 
                     <p>The colour palette was based on the colours of a Peacocks. This is naturally formed in nature and so a more organic palette.  To veer away from the palit being all strong colours, pale shades were chosen. </p>
-                    <img src="" class="img-responsive">
-                    <img src="" class="img-responsive">
+                    <img src="images/appendix-6.png" class="img-responsive"><br>
+                    <img src="images/appendix-7.png" class="img-responsive"><br>
                     
                     <table width="100%" border="1" cellpadding="0" cellspacing="0">
                     	<tr>
@@ -227,9 +228,19 @@
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h2>App Research</h2>
                     <p>In consideration for designing the phone app I had noticed a recent trend from bottom navigation on phone apps.</p>
-                    <img src="" class="img-responsive">
-                    <img src="" class="img-responsive">
-                    <img src="" class="img-responsive">
+                    <div class="row">
+                    	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        	<img src="images/appendix-8.png" class="img-responsive">
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        	<img src="images/appendix-9.png" class="img-responsive">
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        	<img src="images/appendix-10.png" class="img-responsive"><br>
+                        </div>
+                    </div>
                     <p>There has been a shift towards this bottom navigation. Facebook are currently trialing bottom navigation - (<a href="http://www.androidpolice.com/2017/02/11/facebook-testing-bottom-navigation-bar-app/" target="_blank">http://www.androidpolice.com/2017/02/11/facebook-testing-bottom-navigation-bar-app/</a>).</p>
                     <p>In Steven Hoober research (<a href="http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php" target="_blank">http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php</a>) he found that 49% of people use their thumbs to navigate their phones. A top navigation bar is not within this reach, hence the move. Tha navigation should be top level get to areas and should contain no more than five icons (<a href="http://babich.biz/perfect-bottom-navigation-for-mobile-app/" target="_blank">http://babich.biz/perfect-bottom-navigation-for-mobile-app/</a>)</p>
                     <p>These all helped within the design process. </p>
@@ -242,9 +253,9 @@
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h2>App Sketches</h2>
                     <p>We firstly looked at the branding of the MyOw brand, via logos, fonts and colours.</p>
-                    <img src="" class="img-responsive">
-                    <img src="" class="img-responsive">
-                    <img src="" class="img-responsive">
+                    <img src="images/appendix-11.png" class="img-responsive">
+                    <img src="images/appendix-12.png" class="img-responsive">
+                    <img src="images/appendix-13.png" class="img-responsive">
                 </div>
             </div><!-- end main row 9 -->
             
@@ -254,37 +265,413 @@
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h2>App Development</h2>
                     
-                    <img src="" class="img-responsive">
-                    <img src="" class="img-responsive">
-                    <img src="" class="img-responsive">
-                    <img src="" class="img-responsive">
+                    <div class="row">
+                    	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        	<img src="images/appendix-14.jpg" class="img-responsive">
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        	<img src="images/appendix-15.png" class="img-responsive">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                    	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        	<br><img src="images/appendix-16.png" class="img-responsive">
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        	<br><img src="images/appendix-17.png" class="img-responsive">
+                        </div>
+                    </div>
+                    
+                    <br><img src="images/appendix-18.png" class="img-responsive">
                 </div>
             </div><!-- end main row 10 -->
+            
+                    
+            
+            <!-- start main row 12 -->
+            <div class="row container">
+           	  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h2>Feedback</h2>
+                    <p>Once the Main pages of the home page were styled and designed, they were sent out to the team for feedback and to check all elements were present.</p> 
+                <h3>Vorum</h3>
+                    
+                <table width="100%" border="1" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <th width="40%" scope="col">Feedback</th>
+      <th width="40%" scope="col">Designer Notes</th>
+      <th width="20%" scope="col">Resolution</th>
+    </tr>
+    <tr>
+      <td>Why is there a different edit icon used here? Should we not simplify it and do something like Google?</td>
+      <td>There is no edit function on this page, there is a create new post.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>Date font is a bit small.</td>
+      <td>This can be increased.</td>
+      <td>Font size increased.</td>
+    </tr>
+    <tr>
+      <td>The background needs to be a different colour to each of the topics. Use block of colour rather than lines separating each section.</td>
+      <td>This is a design element. I will think on it.</td>
+      <td>Every second box was changed colour but the outside shading is kept.</td>
+    </tr>
+    <tr>
+      <td>We need more ways to navigate the Vorum. Sort by date, animal, general classification.</td>
+      <td>None of this has been discussed before now. You can search via the search bar.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>It should be broken up into various sections, dogs, cats.</td>
+      <td>None of this has been discussed before now. It might be too much for the small retail of an app and more appropriate for Desktop.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>Showing the user how many posts in each topic would be useful to the user.</td>
+      <td>None of this has been discussed before now. It might be too much for the small retail of an app and more appropriate for Desktop. ></td>
+      <td>No action.</td>
+    </tr>
+  </tbody>
+</table>
+
+                  <br><img src="images/appendix-19.png" class="img-responsive"><br>
+                  
+                  <h3>Calendar</h3>
+                  
+                  <table width="100%" border="1" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <th width="40%" scope="col">Feedback</th>
+      <th width="40%" scope="col">Designer Notes</th>
+      <th width="20%" scope="col">Resolution</th>
+    </tr>
+    <tr>
+      <td>The date is difficult to read.</td>
+      <td>This can be increased.</td>
+      <td>Font size increased.</td>
+    </tr>
+    <tr>
+      <td>What does the check mark do? If it’s showing that the appointment has been kept or that food has been given then we need an item that is not complete to show the difference. </td>
+      <td>We need something to show you can check it off so I can have an X for those not complete yet?</td>
+      <td>Check mark removed.</td>
+    </tr>
+    <tr>
+      <td>Can the icons on either side of the notification text be moved out slightly as there looks like there is room.</td>
+      <td>They are hitting the edge of the bootstrap for phones that are edged it would distort so that the edge.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>The text for the notification looks too close to the time and date.</td>
+      <td>I'll move it out.</td>
+      <td>Moved.</td>
+    </tr>
+    <tr>
+      <td>When on the calendar page should\could the nav icon change colour\size so the user knows that they are on that page.</td>
+      <td>Yes I was thinking the same i'll organise that.</td>
+      <td>Action taken to fix this on all pages that lead off navigation bar.</td>
+    </tr>
+    <tr>
+      <td>There is no way to navigate between months.</td>
+      <td>Google don’t have a visible sign to navigate between months you swipe.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>We have five dates on the calendar and only three items to view, all three items have the same date.</td>
+      <td>If you see the date on the 22 is a full circle they are the ones showing to corresponded with the date selected.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>Notification icons need to have the option to edit or delete the item not just tick ok.</td>
+      <td>The Google calendar is like this also you click the notification to go into it, there is no need for have an edit button.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>The edit calendar icon seems a little big and sticks out on it own.</td>
+      <td>Cool, yeah definitely I can decrease it, I'll note that.</td>
+      <td>Button decreases in size.</td>
+    </tr>
+  </tbody>
+</table>
+
+					<br><img src="images/appendix-20.png" class="img-responsive"><br>
+                  
+                <h3>Health Tips</h3>
+                  
+                  <table width="100%" border="1" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <th width="40%" scope="col">Feedback</th>
+      <th width="40%" scope="col">Designer Notes</th>
+      <th width="20%" scope="col">Resolution</th>
+    </tr>
+    <tr>
+      <td>What does the check mark do?</td>
+      <td>I can delete it.</td>
+      <td>Removed the Tick.</td>
+    </tr>
+    <tr>
+      <td>There is a blue line about the navy bar at the top, is that by design? I think it may be on all of them.</td>
+      <td>There is a blue line under MyOw symptoms, its there by design.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>How does the user search for info on a different animal?</td>
+      <td>Via the search bar. There are too many types of animals to have a button for each.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>It would be useful if we could see what had been searched, what symptoms had veen entered. Much like pintrest it shows the user all the items they have searched making up their filter.</td>
+      <td>When you search the words are in the search bar and related topics would appear underneath would be my understanding but as a landing screen you have the A-Z.</td>
+      <td>No action.</td>
+    </tr>
+  </tbody>
+</table>
+			
+            <br><img src="images/appendix-21.png" class="img-responsive"><br>
+                  
+                <h3>Lost & Found</h3>
+                
+                <table width="100%" border="1" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <th width="40%" scope="col">Feedback</th>
+      <th width="40%" scope="col">Designer notes</th>
+      <th width="20%" scope="col">Resolution</th>
+    </tr>
+    <tr>
+      <td>It’s not clear why there are two icons with the up arrow, I’m guessing that they are to upload information but why are there two?</td>
+      <td>Upload profile and upload photo.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>How does the user save the information on the lost pet?</td>
+      <td>We have not discussed this, why would they need to save it? </td>
+      <td>Save button added.</td>
+    </tr>
+    <tr>
+      <td>How does the user fill out the form with their own pet’s details? </td>
+      <td>They don’t, they upload their pet profile information.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>Why is there an additional search button on the bottom, why are we not using the search bar that we discussed last week would remain and be used across the pages that needed it?</td>
+      <td>This is a search for the information they just filled in. if I put a boundary box around it to include the button search that will make it more clear.</td>
+      <td>The search was put into a boundary box with the form to link them together.</td>
+    </tr>
+    <tr>
+      <td>Where can the user toggle between lost and found animals?</td>
+      <td>Wasn’t sure we had agreed on this for app page, it might be a bit busy.</td>
+      <td>A toggle section added.</td>
+    </tr>
+    <tr>
+      <td>What media does the lost or found advert push the advert to, where is the option for paid adverts?</td>
+      <td>This is new to me, paid adverts? From whom?</td>
+      <td>A direct search function added to browse missing animals. </td>
+    </tr>
+    <tr>
+      <td>How does the user describe where the animal was last seen, when it was last seen? There should a map function here.</td>
+      <td>We have not discussed this.</td>
+      <td>More details added to form for this option.</td>
+    </tr>
+    <tr>
+      <td>What sex is the animal? </td>
+      <td>Yep good idea I can add this in.</td>
+      <td>Added to form.</td>
+    </tr>
+    <tr>
+      <td>What are the contact details for the animal owner? What is the preferred method of contact? </td>
+      <td>This has not been talked about before now. This is a search function, I would imagine that would be included in a screen when you find the pet.</td>
+      <td>No action.</td>
+    </tr>
+  </tbody>
+</table>
+			<br><img src="images/appendix-22.png" class="img-responsive"><br>
+                  
+                <h3>Notifications</h3>
+                
+                <table width="100%" border="1" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <th width="40%" scope="col">Feedback</th>
+      <th width="40%" scope="col">Designer Notes</th>
+      <th width="20%" scope="col">Resolution</th>
+    </tr>
+    <tr>
+      <td>As there are 6 notifications should we not have the number 6 (superscript) beside the notification icon? </td>
+      <td>The 6 would be too small, but I have an icon with a small circle to represent there are notifications there.</td>
+      <td>A dot has been added to the notification bell.</td>
+    </tr>
+    <tr>
+      <td>The user needs to be able to delete or edit these notifications.</td>
+      <td>Like with Google you click the notification and go to it and from there you can edit/delete.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>Should we allow the use to be able to create a new notification from this page?</td>
+      <td>Great thought, I was of the same thinking but if we had one it would bring you back to the calendar page hence why I steered off.</td>
+      <td>No action.</td>
+    </tr>
+  </tbody>
+</table>
+
+				<br><img src="images/appendix-23.png" class="img-responsive"><br>
+                  
+                <h3>Pet Profile</h3>
+                
+                <table width="100%" border="1" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <th width="40%" scope="col">Feedback</th>
+      <th width="40%" scope="col">Designer Notes</th>
+      <th width="20%" scope="col">Resolution</th>
+    </tr>
+    <tr>
+      <td>There are different labels here to the Lost and Found for example “animal” as opposed to “Animal Type”</td>
+      <td>I'll change that to animal type.</td>
+      <td>Changed.</td>
+    </tr>
+    <tr>
+      <td>Where’s the share pet profile button? </td>
+      <td>I can add it, but I do have it in the menu.</td>
+      <td>Added to pet profile and removed from menu.</td>
+    </tr>
+    <tr>
+      <td>Where is the add a new pet profile button?</td>
+      <td>I can add one.</td>
+      <td>New profile button added.</td>
+    </tr>
+    <tr>
+      <td>Should we focus on showing all the functionality of the pet profile page rather than showing the notifications again?</td>
+      <td>This has been discussed that it was wanted on this page, what other functionality can you imagine being here?</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>Does the pet profile image need to be so big? </td>
+      <td>yes/no</td>
+      <td>No action.</td>
+    </tr>
+  </tbody>
+</table>
+	
+    		<br><img src="images/appendix-24.png" class="img-responsive"><br>
+                  
+                <h3>Menu</h3>
+                
+                <table width="100%" border="1" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <th width="40%" scope="col">Feedback</th>
+      <th width="40%" scope="col">Designer Notes </th>
+      <th width="20%" scope="col">Resolution</th>
+    </tr>
+    <tr>
+      <td>Is “Share Pet Profile” not a sub-action of the “Pet Profile” item, so should it not just be accessible from the pet profile page?</td>
+      <td>I don't have it on pet profile page at present. </td>
+      <td>Button removed.</td>
+    </tr>
+  </tbody>
+</table>
+
+			<br><img src="images/appendix-25.png" class="img-responsive"><br>
+                  
+                <h3>Vet Finder</h3>
+                
+                <table width="100%" border="1" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <th width="40%" scope="col">Feedback</th>
+      <th width="40%" scope="col">Designer Notes</th>
+      <th width="20%" scope="col">Resolution</th>
+    </tr>
+    <tr>
+      <td>Icon to show vet on map should map icon used in app, I think. </td>
+      <td>I can add one no problem, I was thinking about it.</td>
+      <td>Icon added.</td>
+    </tr>
+    <tr>
+      <td>The open closed text should be different, for example, open could have a green background and closed could have a red background.</td>
+      <td>That would add different colours outside the remit but I can change it to the blue/purple.</td>
+      <td>The colours were changed within the remit of colours being used.</td>
+    </tr>
+    <tr>
+      <td>Does the location icon have to be that big? </td>
+      <td>It can be reduced.</td>
+      <td>Icon reduced.</td>
+    </tr>
+    <tr>
+      <td>Did we not say that we wanted the distance from information to be displayed in the list of available vets? </td>
+      <td>I don’t recall this, but I can add, I could put it under the open or closed.</td>
+      <td>Distance added.</td>
+    </tr>
+    <tr>
+      <td>Do we need to show the user what vets are closed, this is redundent info. </td>
+      <td>It is for times of emergency.</td>
+      <td>No action taken.</td>
+    </tr>
+    <tr>
+      <td>How does the user search for a vet for a different animal? How does the user change the profile to search for an appropriate vet?</td>
+      <td>It is presuming it is searching for a vet in relationship to your pet profile, we did talk about this before.</td>
+      <td>No action.</td>
+    </tr>
+    <tr>
+      <td>Should we tell the user more about each vet, How many km away are they, what is their rating?</td>
+      <td>I'm adding km in, to find out more about the vet you would click in like with the notifications.</td>
+      <td>Kilometer information added.</td>
+    </tr>
+  </tbody>
+</table>
+
+			<br><img src="images/appendix-26.png" class="img-responsive"><br>
+                  
+              </div>
+            </div><!-- end main row 12 -->      
             
             
             <!-- start main row 11 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h2>Website Development</h2>
-                    <p>From our initial prototype, our original Bootstrap website went through a number of iterations.</p>
-                    <p>It primarily stuck to the original design, but we trialled a fixed bottom navigation bar, but decided against it as it took up too much space from the site's content.</p>
-                    <img src="site-1.png" class="img-responsive">
+                    <p>From our initial prototype, our original Bootstrap website went through a number of iterations, but stuck pimarily to the original design.</p>
+                    <h3>Prototype</h3>
+                    <img src="images/site-1.png" class="img-responsive">
                     <br>
-                    <img src="site-2.png" class="img-responsive">
+                    <h3>1st Draft</h3>
+                    <img src="images/site-2.png" class="img-responsive">
                     <br>
-                    <img src="site-3.png" class="img-responsive">
+                    <h3>2nd Draft</h3>
+                    <img src="images/site-3.png" class="img-responsive">
                     <br>
-                    <img src="site-4.png" class="img-responsive">
+                    <h3>3rd Draft</h3>
+                    <img src="images/site-4.png" class="img-responsive">
                     <br>
-                    <img src="site-6.png" class="img-responsive">
+                    <h3>Final Draft</h3>
+                    <img src="images/site-6.png" class="img-responsive">
                 </div>
             </div><!-- end main row 11 -->
             
-            
-            
+            <!-- start main row 9 -->
+            <div class="row container">
+           	  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+               	<h2>Evidence of Teamwork</h2>
+                    
+                  <img src="images/teamwork-diagram.png" class="img-responsive">
+                  <img src="images/teamwork-table.png" class="img-responsive">
+                  
+                <h2>Working Document</h2>
+                <p>We maintained a shared Working Document on Google Docs throughout the project to keep one another aware of our progress. We also used this to share feedback and suggestions outside of our weekly scheduled Hangout. </p>
+                <p>This Working Document can be downloaded <a href="Team23WorkingDoc.pdf" target="_blank">here</a>.</p>
+                  
+              </div>
+            </div><!-- end main row 9 -->
             
         </div><!-- end main content -->
     </div><!-- end main container -->
+    
+    
             
               
             
@@ -384,7 +771,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
     <!-- Custom JS -->
-    <script src="../js/home-custom-scripts.js"></script>
+    <script src="../js/custom-scripts.js"></script>
 </body>
 
 </html>

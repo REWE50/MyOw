@@ -155,12 +155,13 @@
         	<!-- start persona pic -->
         	<div class="col-lg-4 col-md-3 col-sm-4">
             	<div class="row">
-            		<img src="../images/mary-persona.png" class="img-responsive" alt="Mary and her Dog Kiella">
+            		<img src="images/mary-pic.png" class="img-responsive" alt="Mary and her Dog Kiella">
                 </div>
                 
+                <!--
                 <div class="row persona-colors" id="persona-caption">
                 	<p>"I think my dog is doing pretty well. I wonder what else I can do for him..."</p>
-                </div>    
+                </div>    -->
             </div><!-- end persona pic -->
             
             <!-- start persona personal details -->

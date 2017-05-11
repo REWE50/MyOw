@@ -118,7 +118,11 @@
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <h1>References</h1>
-                    <p>References Go Here</p>
+                    <p>We do not have any References to include.</p>
+                    <p>However, if we did, we would have used the Harvard method as below.</p>
+                    <p>With an author: Author's Last name, Initial(s). (Year) Name of webpage. Available at: URL (Accessed: date)</p>
+                    <p>NOTE: If there is no date use n.d</p>
+					<p>With no author: Title of webpage. Retrieved Month Day, Year, from name of website, URL.</p>
 	           </div>
             </div><!-- end main row 1 -->
             

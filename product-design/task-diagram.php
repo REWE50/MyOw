@@ -121,6 +121,7 @@
                 	<div class="row">
                     	<div class="col-lg-12">
                     		<h1>Task Diagram</h1>
+                            <h2>Symptoms Checker</h2>
                             <img src="images/task-flow-diagram.png" class="img-responsive" alt="Taskflow Diagram">
                         </div>
                     </div>

@@ -119,10 +119,14 @@
             <div class="row">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
                 	<h1>Written Use Cases</h1>
-                    <div class="col-lg-12">
-                    	<h2>UC-3 Maintain Pet Health</h2>
-                    </div>
+                </div>
+            </div>    
+            
+            <div class="row">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 align-justify">
                     
+                    <h2>UC-3 Maintain Pet-Health</h2>
+                                        
                     <div class="col-lg-12">
                     	<strong>Parent</strong>: MyOw Pet Care App
                     </div>
@@ -132,22 +136,25 @@
                     </div>
                     
                     <div class="col-lg-12">
-                   	<strong>Secondary Actors</strong>: MyOw Server, AI Server</div>
+                   		<strong>Secondary Actors</strong>: MyOw Server, AI Server
+                    </div>
                     
                     <div class="col-lg-12">
-                    	<strong>Brief Description/Goal</strong>: To keep their pet healthy, a Pet Owner may search the app for general pet-health information. </div>
+                    	<strong>Brief Description/Goal</strong>: To keep their pet healthy, a Pet Owner may search the app for general pet-health information. 
+                    </div>
                     
                     <div class="col-lg-12">
-                   	  <p><strong>Preconditions</strong>: </p>
+                   		<p><strong>Preconditions</strong>: </p>
                     	<ul>
-                    	  <li>The Pet Owner must have an account with MyOw</li>
+                    		<li>The Pet Owner must have an account with MyOw</li>
                     	    <li>The Pet Owner must have a data connection</li>
                     	    <li>The Pet Owner must be logged into their MyOw account</li>
                   	  </ul>
                   </div>
                     
                     <div class="col-lg-12">
-                    	<strong>Success Guarantee</strong>: The  Pet Owner has received information for their given query.</div>
+                    	<strong>Success Guarantee</strong>: The  Pet Owner has received information for their given query.
+                    </div>
                     
                     <div class="col-lg-12">
                       <table>

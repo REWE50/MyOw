@@ -116,14 +116,14 @@
         
           	<!-- start main row 1 -->
             <div class="row container">
-            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            	<div class="col-lg-12">
                 	<h1>State Transition Diagram</h1>
                     <h2>All Functions</h2>
            	   </div>
             </div><!-- end main row 1 -->
             
             <div class="row container">
-            	<div class="col-lg-12 col-md-10 col-md-offset-1"><img src="images/state-transition-diagram-2.png" class="img-responsive" alt="Full App State Transition Diagram">
+            	<div class="col-lg-12"><img src="images/state-transition-diagram-2.png" class="img-responsive" alt="Full App State Transition Diagram">
        	       </div>
             </div><!-- end main row 1 -->
                         
