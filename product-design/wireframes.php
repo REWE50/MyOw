@@ -127,7 +127,8 @@
                     <div class="row">
                         
                         <div class="col-lg-12">
-                    		<img src="images/home-wire.png" alt="Home Page Wireframe" class="img-responsive">
+                    		<br>
+                            <img src="images/home-wire.png" alt="Home Page Wireframe" class="img-responsive">
                             <br><br>
                         </div>
                     </div>
