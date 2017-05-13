@@ -205,6 +205,7 @@
             <!-- start main row 2 -->
             <div class="row">
             	<div class="col-lg-8 col-lg-offset-2">
+                	<h2>Use Case Flow Diagram</h2><br>
                 	<img src="images/maintain-pet-health-flow.png" class="img-responsive">
             	</div>
             </div>           
@@ -288,20 +289,25 @@
         
         
             <!-- start row containing copyright and social media div -->
-            <div class="row no-gutters" id="copyright">
+            <div class="row no-gutters" id="social-media">
                 <!-- start copyright and social media -->
-                  <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 container">
-                        <table width="75%" cellspacing="2" cellpadding="2" class="align-table">
-                          <tbody>
-                            <tr>
-                              <th width="20%" scope="col" class="align-right"><a href="https://www.facebook.com/DigitalCareAssistant/" target="new"><img src="../images/fb.png" id="fb"></a></th>
-                              <th width="60%" scope="col" class="align-center">Copyright MyOw <?php echo date("Y");?></th>
-                              <th width="20%" scope="col" class="align-left"><a href="https://twitter.com/MyOw_DCA" target="new"><img src="../images/twitter.png" id="twitter"></a></th>
-                            </tr>
-                          </tbody>
-                        </table>
+                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 container">
+                        <div class="row">
+                            <div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-2 align-center">
+                                <a href="https://www.facebook.com/DigitalCareAssistant/" target="new"><img src="../images/fb.png" id="fb"></a>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8 align-center" id="copyright">
+                                <strong><?php include'../classes/Copyright.class.php'; $c1 = new Copyright(); $c1->insertCopyright(); ?></strong>
+                            </div>
+                            
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 align-center">
+                                <a href="https://twitter.com/MyOw_DCA" target="new"><img src="../images/twitter.png" id="twitter"></a>
+                            </div>
+                        </div>          
                  </div><!-- end copyright and social media -->
-            </div><!-- row containing copyright and social media div -->
+            </div><!-- end row containing copyright and social media div -->
+            
         </div><!-- end div containing navbar AND copyright/social media -->
     </div><!-- end fluid container containing bottom navbar and social media/copyright -->
     
