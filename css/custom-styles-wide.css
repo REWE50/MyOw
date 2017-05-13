@@ -263,7 +263,7 @@ img {
 }
 
 
-#copyright
+#social-media
 {
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -286,6 +286,11 @@ img {
 #sb4,#sb5,#sb6
 {
 	padding-top: 25px;
+}
+
+#copyright
+{
+	margin-top:  5px;
 }
 
 
@@ -528,7 +533,7 @@ img {
 		padding-bottom: 15px;
 	}
 	
-	#copyright
+	#social-media
 	{
 		border-top: 2px solid #000;
 	}
@@ -544,7 +549,10 @@ img {
 	}
 	
 	
-	
+	#colors-table
+	{
+		font-size: smaller;
+	}
 	
 	
 	

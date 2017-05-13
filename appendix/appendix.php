@@ -175,7 +175,7 @@
                     <img src="images/appendix-6.png" class="img-responsive"><br>
                     <img src="images/appendix-7.png" class="img-responsive"><br>
                     
-                    <table width="100%" border="1" cellpadding="0" cellspacing="0">
+                    <table width="100%" border="1" cellpadding="0" cellspacing="0" id="colors-table">
                     	<tr>
                         	<td width="16%">Colour:</td>
                             <td width="16%">Light Blue</td>
@@ -222,11 +222,49 @@
                 </div>
             </div><!-- end main row 7 -->
             
+            <!-- start main row 11 -->
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h2>Website Development</h2>
+                    <p>From our initial prototype, our original Bootstrap website went through a number of iterations, but stuck pimarily to the original design.</p>
+                    <h3>Prototype</h3>
+                    <img src="images/site-1.png" class="img-responsive">
+                    <br>
+                    <h3>1st Draft</h3>
+                    <img src="images/site-2.png" class="img-responsive">
+                    <br>
+                    <h3>2nd Draft</h3>
+                    <img src="images/site-3.png" class="img-responsive">
+                    <br>
+                    <h3>3rd Draft</h3>
+                    <img src="images/site-4.png" class="img-responsive">
+                    <br>
+                    <h3>Final Draft</h3>
+                    <img src="images/site-6.png" class="img-responsive">
+                </div>
+            </div><!-- end main row 11 -->
+            
+            <!-- start main row 9 -->
+            <div class="row container">
+           	  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+               	<h2>Evidence of Teamwork</h2>
+                    
+                  <img src="images/teamwork-diagram.png" class="img-responsive">
+                  <img src="images/teamwork-table.png" class="img-responsive">
+                  
+                <h2>Working Document</h2>
+                <p>We maintained a shared Working Document on Google Docs throughout the project to keep one another aware of our progress. We also used this to share feedback and suggestions outside of our weekly scheduled Hangout. </p>
+                <p>This Working Document can be downloaded <a href="Team23WorkingDoc.pdf" target="_blank">here</a>.</p>
+                  
+              </div>
+            </div><!-- end main row 9 -->
+            
             
             <!-- start main row 8 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                	<h2>App Research</h2>
+                	<h1>Assignment 4</h1>
+                    <h2>App Research</h2>
                     <p>In consideration for designing the phone app I had noticed a recent trend from bottom navigation on phone apps.</p>
                     <div class="row">
                     	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -241,8 +279,8 @@
                         	<img src="images/appendix-10.png" class="img-responsive"><br>
                         </div>
                     </div>
-                    <p>There has been a shift towards this bottom navigation. Facebook are currently trialing bottom navigation - (<a href="http://www.androidpolice.com/2017/02/11/facebook-testing-bottom-navigation-bar-app/" target="_blank">http://www.androidpolice.com/2017/02/11/facebook-testing-bottom-navigation-bar-app/</a>).</p>
-                    <p>In Steven Hoober research (<a href="http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php" target="_blank">http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php</a>) he found that 49% of people use their thumbs to navigate their phones. A top navigation bar is not within this reach, hence the move. Tha navigation should be top level get to areas and should contain no more than five icons (<a href="http://babich.biz/perfect-bottom-navigation-for-mobile-app/" target="_blank">http://babich.biz/perfect-bottom-navigation-for-mobile-app/</a>)</p>
+                    <p>There has been a shift towards this bottom navigation. Facebook are currently trialing bottom navigation - (Oakley, P. (2017). <em>Facebook testing a bottom navigation bar in its app</em>. [online] Android Police. Available at:<a href="http://www.androidpolice.com/2017/02/11/facebook-testing-bottom-navigation-bar-app/" target="_blank" class="smaller-text"> http://www.androidpolice.com/2017/02/11/facebook-testing-bottom-navigation-bar-app/ [Accessed 18 Apr. 2017].</a>).</p>
+                    <p>In Steven Hoober research (Hoober, S. (2017). <em>How Do Users Really Hold Mobile Devices? :: UXmatters</em>. [online] Uxmatters.com. Available at:<a href="http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php" target="_blank" class="smaller-text"> http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php [Accessed 22 April 2017].</a>) he found that 49% of people use their thumbs to navigate their phones. A top navigation bar is not within this reach, hence the move. Tha navigation should be top level get to areas and should contain no more than five icons (Babich, N. (2017). <em>UX Design for Mobile: Bottom Navigation</em>. [online] Nick Babich. Available at: <a href="http://babich.biz/perfect-bottom-navigation-for-mobile-app/" target="_blank" class="smaller-text">http://babich.biz/perfect-bottom-navigation-for-mobile-app/</a> [Accessed 18 Apr. 2017].)</p>
                     <p>These all helped within the design process. </p>
                 </div>
             </div><!-- end main row 8 -->
@@ -294,8 +332,8 @@
             <!-- start main row 12 -->
             <div class="row container">
            	  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                	<h2>Feedback</h2>
-                    <p>Once the Main pages of the home page were styled and designed, they were sent out to the team for feedback and to check all elements were present.</p> 
+                	<h2> Feedback</h2>
+                    <p>Once the Main pages of the prototype home page were styled and designed, they were sent out to the team for feedback and to check all elements were present.</p> 
                 <h3>Vorum</h3>
                     
                 <table width="100%" border="1" cellspacing="2" cellpadding="2">
@@ -629,44 +667,7 @@
                   
               </div>
             </div><!-- end main row 12 -->      
-            
-            
-            <!-- start main row 11 -->
-            <div class="row container">
-            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                	<h2>Website Development</h2>
-                    <p>From our initial prototype, our original Bootstrap website went through a number of iterations, but stuck pimarily to the original design.</p>
-                    <h3>Prototype</h3>
-                    <img src="images/site-1.png" class="img-responsive">
-                    <br>
-                    <h3>1st Draft</h3>
-                    <img src="images/site-2.png" class="img-responsive">
-                    <br>
-                    <h3>2nd Draft</h3>
-                    <img src="images/site-3.png" class="img-responsive">
-                    <br>
-                    <h3>3rd Draft</h3>
-                    <img src="images/site-4.png" class="img-responsive">
-                    <br>
-                    <h3>Final Draft</h3>
-                    <img src="images/site-6.png" class="img-responsive">
-                </div>
-            </div><!-- end main row 11 -->
-            
-            <!-- start main row 9 -->
-            <div class="row container">
-           	  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-               	<h2>Evidence of Teamwork</h2>
-                    
-                  <img src="images/teamwork-diagram.png" class="img-responsive">
-                  <img src="images/teamwork-table.png" class="img-responsive">
-                  
-                <h2>Working Document</h2>
-                <p>We maintained a shared Working Document on Google Docs throughout the project to keep one another aware of our progress. We also used this to share feedback and suggestions outside of our weekly scheduled Hangout. </p>
-                <p>This Working Document can be downloaded <a href="Team23WorkingDoc.pdf" target="_blank">here</a>.</p>
-                  
-              </div>
-            </div><!-- end main row 9 -->
+             
             
         </div><!-- end main content -->
     </div><!-- end main container -->
@@ -745,20 +746,25 @@
         
         
             <!-- start row containing copyright and social media div -->
-            <div class="row no-gutters" id="copyright">
+            <div class="row no-gutters" id="social-media">
                 <!-- start copyright and social media -->
-                  <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 container">
-                        <table width="75%" cellspacing="2" cellpadding="2" class="align-table">
-                          <tbody>
-                            <tr>
-                              <th width="20%" scope="col" class="align-right"><a href="https://www.facebook.com/DigitalCareAssistant/" target="new"><img src="../images/fb.png" id="fb"></a></th>
-                              <th width="60%" scope="col" class="align-center">Copyright MyOw <?php echo date("Y");?></th>
-                              <th width="20%" scope="col" class="align-left"><a href="https://twitter.com/MyOw_DCA" target="new"><img src="../images/twitter.png" id="twitter"></a></th>
-                            </tr>
-                          </tbody>
-                        </table>
+                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 container">
+                        <div class="row">
+                            <div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-2 align-center">
+                                <a href="https://www.facebook.com/DigitalCareAssistant/" target="new"><img src="../images/fb.png" id="fb"></a>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8 align-center" id="copyright">
+                                <strong><?php include'../classes/Copyright.class.php'; $c1 = new Copyright(); $c1->insertCopyright(); ?></strong>
+                            </div>
+                            
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 align-center">
+                                <a href="https://twitter.com/MyOw_DCA" target="new"><img src="../images/twitter.png" id="twitter"></a>
+                            </div>
+                        </div>          
                  </div><!-- end copyright and social media -->
             </div><!-- row containing copyright and social media div -->
+            
         </div><!-- end div containing navbar AND copyright/social media -->
     </div><!-- end fluid container containing bottom navbar and social media/copyright -->
  

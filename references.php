@@ -11,7 +11,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="css/custom-styles-wide-fixed-pages.css" rel="stylesheet">
+    <link href="css/custom-styles-wide.css" rel="stylesheet">
         
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -117,15 +117,69 @@
             <!-- start main row 1 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h1>References</h1>
-                    <p>We do not have any References to include.</p>
-                    <p>However, if we did, we would have used the Harvard method as below.</p>
-                    <p>With an author: Author's Last name, Initial(s). (Year) Name of webpage. Available at: URL (Accessed: date)</p>
-                    <p>NOTE: If there is no date use n.d</p>
-					<p>With no author: Title of webpage. Retrieved Month Day, Year, from name of website, URL.</p>
+               	  <h1>References </h1>
+                    
+                	<p>Babich, N. (2017). <em>UX Design for Mobile: Bottom Navigation</em>. [online] babich.biz. Available at: <a href="http://babich.biz/perfect-bottom-navigation-for-mobile-app/" target="_blank" class="smaller-text">http://babich.biz/perfect-bottom-navigation-for-mobile-app/</a> [Accessed 20 April 2017].</p>
+                	<p>Hoober, S. (2017). <em>How Do Users Really Hold Mobile Devices? :: UXmatters</em>. [online] Uxmatters.com. Available at: <a href="http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php" target="_blank" class="smaller-text">http://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php</a> [Accessed 22 April 2017].</p>
+                	<p>Oakley, P. (2017). <em>Facebook testing a bottom navigation bar in its app</em>. [online] Android Police. Available at: <a href="Oakley, P. (2017). Facebook testing a bottom navigation bar in its app. [online] Android Police. Available at: http://www.androidpolice.com/2017/02/11/facebook-testing-bottom-navigation-bar-app/ [Accessed 18 Apr. 2017]." target="_blank" class="smaller-text">http://www.androidpolice.com/2017/02/11/facebook-testing-bottom-navigation-bar-app</a>/ [Accessed 18 Apr. 2017].</p>
+                    <p><br>
+				  </p>
+                  <h1>Bibliography</h1> 
+                  <h2>Use Cases</h2>
+                    <ul>
+                    	
+                        <li>DSA UX &amp; Concept Design Unit 10 - UML Use Cases</li>
+                        <li><a href="http://casecomplete.com/learn/actors-and-goals" target="_blank">CaseComplete.com, Use Case Actors and Goals</a></li>
+                        <li><a href="http://casecomplete.com/learn/create-use-cases" target="_blank">CaseComplete.com, Creating Use Case</a>s</li>
+                        <li><a href="http://casecomplete.com/learn/write-use-case-extensions" target="_blank">CaseComplete.com, Use Case Extensions</a></li>
+                        <li><a href="http://www.agilemodeling.com/artifacts/useCaseDiagram.htm" target="_blank">AgileModeling.com, Use Case Diagrams</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Use_case#Examples" target="_blank">Wikipedia.com, Use Cases</a></li>
+                        <li><a href="http://learning.digitalskillsacademy.me/mod/forum/discuss.php?d=3784" target="_blank">DSA UX &amp; Concept Design Forum, Use Case Actors</a></li>
+                        <li><a href="http://learning.digitalskillsacademy.me/mod/forum/discuss.php?d=3720" target="_blank">DSA UX &amp; Concept Design Forum, Use Case Diagram</a></li>
+                        <li><a href="http://learning.digitalskillsacademy.me/mod/forum/discuss.php?d=3745" target="_blank">DSA UX &amp; Concept Design Forum, Use Cases</a></li>
+                        <li><a href="http://learning.digitalskillsacademy.me/mod/forum/discuss.php?d=3726" target="_blank">DSA UX &amp; Concept Design Forum, Use Cases</a></li>
+                        <li><a href="http://learning.digitalskillsacademy.me/mod/forum/discuss.php?d=3698" target="_blank">DSA UX &amp; Concept Design Forum, Use Case Actors</a></li>
+                    </ul>
+                    
+                    <h2>Structure Map</h2>
+                    <ul>
+                    	<li>DSA UX &amp; Concept Design Unit 12 - Design For The User</li>
+                    </ul>
+                    
+                    <h2>Storyboards</h2>
+                    <ul>
+                    	<li>DSA UX &amp; Concept Design Unit 12 - Design For The User</li>
+                    </ul>
+                    
+                    <h2>State Transition Diagram</h2>
+                    <ul>
+                    	<li>DSA UX &amp; Concept Design Unit 13 - UML Structure, Simplify, Critique</li>
+                    </ul>
+                    
+                    <h2>Task Flow Diagram</h2>
+                    <ul>
+                    	<li>DSA UX &amp; Concept Design Unit 14 - Taskflow, Prototyping & Presentation</li>
+                    </ul>
+                    
+                    <h2>Wireframes</h2>
+                    <ul>
+                    	<li>DSA UX &amp; Concept Design Unit 6 - Data Gathering, Wireframes, Presentation Techniques & Check Your Work</li>
+                    </ul>
+                    
+                    <h2>Personas &amp; Scenarios</h2>
+                    <ul>
+                    	<li>DSA UX &amp; Concept Design Unit 4 - Personas &amp; Scenarios</li>
+                        <li>DSA UX &amp; Concept Design Unit 10 - UML Use Cases</li>
+                    </ul>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
 	           </div>
-            </div><!-- end main row 1 -->
-            
+            </div><!-- end main row 1 -->           
         </div><!-- end main content -->
     </div><!-- end main container -->
             
@@ -135,7 +189,7 @@
     
 
     <!-- start fluid container containing bottom navbar and social media/copyright -->
-    <div class="container-fluid navbar-fixed-bottom nav-bg no-gutters" id="bottom-nav-container">
+    <div class="container-fluid nav-bg no-gutters" id="bottom-nav-container">
         <!-- start div containing navbar AND copyright/social media -->
         <div class="col-lg-12 no-gutters">      
             <!-- start of bottom navbar -->
@@ -201,24 +255,27 @@
         
         
             <!-- start row containing copyright and social media div -->
-            <div class="row no-gutters" id="copyright">
+            <div class="row no-gutters" id="social-media">
                 <!-- start copyright and social media -->
-                  <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 container">
-                        <table width="75%" cellspacing="2" cellpadding="2" class="align-table">
-                          <tbody>
-                            <tr>
-                              <th width="20%" scope="col" class="align-right"><a href="https://www.facebook.com/DigitalCareAssistant/" target="new"><img src="images/fb.png" id="fb"></a></th>
-                              <th width="60%" scope="col" class="align-center">Copyright MyOw <?php echo date("Y");?></th>
-                              <th width="20%" scope="col" class="align-left"><a href="https://twitter.com/MyOw_DCA" target="new"><img src="images/twitter.png" id="twitter"></a></th>
-                            </tr>
-                          </tbody>
-                        </table>
+                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 container">
+                        <div class="row">
+                            <div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-2 align-center">
+                                <a href="https://www.facebook.com/DigitalCareAssistant/" target="new"><img src="images/fb.png" id="fb"></a>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8 align-center" id="copyright">
+                                <strong><?php include'classes/Copyright.class.php'; $c1 = new Copyright(); $c1->insertCopyright(); ?></strong>
+                            </div>
+                            
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 align-center">
+                                <a href="https://twitter.com/MyOw_DCA" target="new"><img src="images/twitter.png" id="twitter"></a>
+                            </div>
+                        </div>          
                  </div><!-- end copyright and social media -->
             </div><!-- row containing copyright and social media div -->
+            
         </div><!-- end div containing navbar AND copyright/social media -->
     </div><!-- end fluid container containing bottom navbar and social media/copyright -->
- 
- 
  
     
     

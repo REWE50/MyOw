@@ -453,7 +453,7 @@
                     
                     <div class="row">
                     	<div class="col-lg-8 col-lg-offset-2 align-justify" id="kiella-story">
-                        	<p><img src="../images/kiella1.png" class="img-responsive pull-right" id="kiella-pic-1" alt="A picture of Kiella">Mary O’Donnell is a 41 year old primary school teacher who lives with her husband David and two children Katie (9) and Felix (5) in Navan, Co Meath. She has one pet in the house, a 6-month-old Yorkshire Terrier named Kiella, who they got for Felix’s 5th birthday. </p>
+                        	<p><img src="images/kiella1.png" class="img-responsive pull-right" id="kiella-pic-1" alt="A picture of Kiella">Mary O’Donnell is a 41 year old primary school teacher who lives with her husband David and two children Katie (9) and Felix (5) in Navan, Co Meath. She has one pet in the house, a 6-month-old Yorkshire Terrier named Kiella, who they got for Felix’s 5th birthday. </p>
                             
                             <p><!--<img src="../images/kiella2.png" class="img-responsive pull-left" id="kiella-pic-2">-->Mary’s husband David works in Drogheda as a solicitor and is usually the first out of the house in the morning and the last back in the evening. Mary leaves for school at 8:15 with the two kids and leaves Kiella outside in the garden. There is a kennel in the garden should it rain, and there is lots of space for him to run around in. </p>
                             
@@ -569,20 +569,25 @@
         
         
             <!-- start row containing copyright and social media div -->
-            <div class="row no-gutters" id="copyright">
+            <div class="row no-gutters" id="social-media">
                 <!-- start copyright and social media -->
-                  <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 container">
-                        <table width="75%" cellspacing="2" cellpadding="2" class="align-table">
-                          <tbody>
-                            <tr>
-                              <th width="20%" scope="col" class="align-right"><a href="https://www.facebook.com/DigitalCareAssistant/" target="new"><img src="../images/fb.png" id="fb"></a></th>
-                              <th width="60%" scope="col" class="align-center">Copyright MyOw <?php echo date("Y");?></th>
-                              <th width="20%" scope="col" class="align-left"><a href="https://twitter.com/MyOw_DCA" target="new"><img src="../images/twitter.png" id="twitter"></a></th>
-                            </tr>
-                          </tbody>
-                        </table>
+                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 container">
+                        <div class="row">
+                            <div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-2 align-center">
+                                <a href="https://www.facebook.com/DigitalCareAssistant/" target="new"><img src="../images/fb.png" id="fb"></a>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8 align-center" id="copyright">
+                                <strong><?php include'../classes/Copyright.class.php'; $c1 = new Copyright(); $c1->insertCopyright(); ?></strong>
+                            </div>
+                            
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 align-center">
+                                <a href="https://twitter.com/MyOw_DCA" target="new"><img src="../images/twitter.png" id="twitter"></a>
+                            </div>
+                        </div>          
                  </div><!-- end copyright and social media -->
-            </div><!-- row containing copyright and social media div -->
+            </div><!-- end row containing copyright and social media div -->
+            
         </div><!-- end div containing navbar AND copyright/social media -->
     </div><!-- end fluid container containing bottom navbar and social media/copyright -->
  
