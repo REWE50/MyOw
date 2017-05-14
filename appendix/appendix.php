@@ -25,15 +25,16 @@
         UXCD Assessment 3
         Bootstrap Website
     -->    
-    
 </head>
 
 <body>  
 
     <!-- start fluid container containing logo top fixed navbar -->
     <div class="container-fluid navbar navbar-custom navbar-fixed-top no-gutters">
+    
         <!-- start row containing logo -->
         <div class="row white-bg no-gutters">
+        
             <div class="container white-bg red-bg">
                 <!-- MyOw logo -->
                 <div class="col-lg-12" id="logo">
@@ -83,48 +84,25 @@
                                 <li><a href="../product-design/storyboard.php">Storyboard</a></li>
                                 <li><a href="../product-design/state-transition-diagram-1.php">State Transition Diagram - Key Function</a></li>
                                 <li><a href="../product-design/state-transition-diagram-2.php">State Transition Diagram - All Functions</a></li>
-
                             </ul><!-- end of inner ul -->
                         </li>
                         <li><a href="../references.php">References</a></li>
-                        <li class="active"><a href="../appendix/appendix.php">Appendix</a></li>
-                        
-                        <!--
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Section<b class="caret"></b></a>
-                            <!-- a nested unordered list to create a dropdown menu - ->
-                            <!-- start of innder ul - ->
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                        	</ul><!-- end of inner ul - ->
-                        </li>
-                        -->    
+                        <li class="active"><a href="../appendix/appendix.php">Appendix</a></li>  
                     </ul><!-- end of outer ul -->
                 </div><!-- end of list items -->                
             </div><!-- end top fixed navbar --> 
         </div><!-- end div containing navbar -->
+        
     </div><!-- end fluid container containing logo top fixed navbar -->
     
-    
-    
-       
-        
+           
     <!-- start main container -->
-    <div class="container white-bg">  
+    <div class="container white-bg"> 
+     
         <!-- start main content -->
         <div id="main-content">       
             
-            
-            <!-- 
-            <div class="row container">
-            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                	<h2>Design Process</h2>
-                    <p>We firstly looked at the branding of the MyOw brand, via logos, fonts and colours.</p>
-                </div>
-            </div> -->
-            
-            <!-- start main row 3 -->
+            <!-- start main row 1 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <h2>Initial Sketches</h2>
@@ -142,10 +120,9 @@
                         </div>
                     </div>
 	           </div>
-            </div><!-- end main row 3 -->
-            
-            
-            <!-- start main row 4 -->
+            </div><!-- end main row 2 -->
+                        
+            <!-- start main row 3 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h2>Mindmap</h2>
@@ -153,10 +130,9 @@
                     <p>We began the process by highlighting the 5 key areas that the app focuses on. In order of importance according to our user research they are, AI Symptom checker, Pet profile, Ai lost & found Checker, pet health guidance and an Emergency Vet finder. From there we tried to extract all the core feeling and actions that comes to mind when thinking about MyOw.</p>
                     <p>To view a live more extended version of the mind map please click on the link provided, <a href="https://bubbl.us/Mzc2ODczNy83NTU0MTg0L2M0MzIwYWI3ODYwMjIyNzRhZjM1OGE5YTU0YTRmZjUw-X" target="_blank">MyOw Mind Map</a></p>
                 </div>
-            </div><!-- end main row 4 -->
+            </div><!-- end main row 2 -->
             
-            
-            <!-- start main row 5 -->
+            <!-- start main row 3 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h2>The Design Process</h2>
@@ -164,10 +140,9 @@
                     <p>As can be seen from  the three pages of sketches, there was a good deal of thought put into the MyOw logo. From the work done on the Mood Board, Mind Map and discussions we had over several meetings we knew what we wanted to tell the viewer. Below are a several examples of earlier revisions of the logo.</p>
                     <img src="images/appendix-5.png" class="img-responsive">
                 </div>
-            </div><!-- end main row 5 -->
-            
-            
-            <!-- start main row 6 -->
+            </div><!-- end main row 3 -->
+                      
+            <!-- start main row 4 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h1>Colour</h1> 
@@ -194,10 +169,9 @@
                         </tr>       
                     </table>
                 </div>
-            </div><!-- end main row 6 -->
-            
-            
-            <!-- start main row 7 -->
+            </div><!-- end main row 4 -->
+                        
+            <!-- start main row 5 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h2>Typography</h2>
@@ -220,13 +194,16 @@
                         </tr>
                     </table>
                 </div>
-            </div><!-- end main row 7 -->
+            </div><!-- end main row 5 -->
             
-            <!-- start main row 11 -->
+            <!-- start main row 6 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h2>Website Development</h2>
                     <p>From our initial prototype, our original Bootstrap website went through a number of iterations, but stuck pimarily to the original design.</p>
+                    
+                    <p>We maintained a <a href="https://github.com/REWE50/MyOw" target="_blank">GitHub Repo</a> so team members could view the code and offer their own suggestions.</p>
+                     
                     <h3>Prototype</h3>
                     <img src="images/site-1.png" class="img-responsive">
                     <br>
@@ -242,9 +219,33 @@
                     <h3>Final Draft</h3>
                     <img src="images/site-6.png" class="img-responsive">
                 </div>
-            </div><!-- end main row 11 -->
+            </div><!-- end main row 6 -->
             
-            <!-- start main row 9 -->
+            <!-- start main row 6b -->
+            <div class="row container">
+            	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                	<h2>Responsive Design</h2>
+                    <p>Using our own Bootstrap design, our site is fully responsive for mobile viewing.</p>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    	<img src="images/mobile-1.png" class="img-responsive"><br>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    	<img src="images/mobile-2.png" class="img-responsive"><br>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    	<img src="images/mobile-3.png" class="img-responsive"><br>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    	<img src="images/mobile-4.png" class="img-responsive"><br>
+                    </div>
+                    
+                </div>
+            </div><!-- end main row 6b -->
+            
+            <!-- start main row 7 -->
             <div class="row container">
            	  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                	<h2>Evidence of Teamwork</h2>
@@ -257,9 +258,8 @@
                 <p>This Working Document can be downloaded <a href="Team23WorkingDoc.pdf" target="_blank">here</a>.</p>
                   
               </div>
-            </div><!-- end main row 9 -->
-            
-            
+            </div><!-- end main row 7 -->
+                        
             <!-- start main row 8 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -285,7 +285,6 @@
                 </div>
             </div><!-- end main row 8 -->
             
-            
             <!-- start main row 9 -->
             <div class="row container">
             	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -296,7 +295,6 @@
                     <img src="images/appendix-13.png" class="img-responsive">
                 </div>
             </div><!-- end main row 9 -->
-            
             
             <!-- start main row 10 -->
             <div class="row container">
@@ -327,9 +325,7 @@
                 </div>
             </div><!-- end main row 10 -->
             
-                    
-            
-            <!-- start main row 12 -->
+            <!-- start main row 11 -->
             <div class="row container">
            	  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 	<h2> Feedback</h2>
@@ -337,350 +333,345 @@
                 <h3>Vorum</h3>
                     
                 <table width="100%" border="1" cellspacing="2" cellpadding="2">
-  <tbody>
-    <tr>
-      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
-      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
-      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Why is there a different edit icon used here? Should we not simplify it and do something like Google?</td>
-      <td class="align-appendix-tables">There is no edit function on this page, there is a create new post.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Date font is a bit small.</td>
-      <td class="align-appendix-tables">This can be increased.</td>
-      <td class="align-appendix-tables">Font size increased.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">The background needs to be a different colour to each of the topics. Use block of colour rather than lines separating each section.</td>
-      <td class="align-appendix-tables">This is a design element. I will think on it.</td>
-      <td class="align-appendix-tables">Every second box was changed colour but the outside shading is kept.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">We need more ways to navigate the Vorum. Sort by date, animal, general classification.</td>
-      <td class="align-appendix-tables">None of this has been discussed before now. You can search via the search bar.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">It should be broken up into various sections, dogs, cats.</td>
-      <td class="align-appendix-tables">None of this has been discussed before now. It might be too much for the small retail of an app and more appropriate for Desktop.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Showing the user how many posts in each topic would be useful to the user.</td>
-      <td class="align-appendix-tables">None of this has been discussed before now. It might be too much for the small retail of an app and more appropriate for Desktop. ></td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-  </tbody>
-</table>
+                  <tbody>
+                    <tr>
+                      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
+                      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
+                      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Why is there a different edit icon used here? Should we not simplify it and do something like Google?</td>
+                      <td class="align-appendix-tables">There is no edit function on this page, there is a create new post.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Date font is a bit small.</td>
+                      <td class="align-appendix-tables">This can be increased.</td>
+                      <td class="align-appendix-tables">Font size increased.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">The background needs to be a different colour to each of the topics. Use block of colour rather than lines separating each section.</td>
+                      <td class="align-appendix-tables">This is a design element. I will think on it.</td>
+                      <td class="align-appendix-tables">Every second box was changed colour but the outside shading is kept.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">We need more ways to navigate the Vorum. Sort by date, animal, general classification.</td>
+                      <td class="align-appendix-tables">None of this has been discussed before now. You can search via the search bar.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">It should be broken up into various sections, dogs, cats.</td>
+                      <td class="align-appendix-tables">None of this has been discussed before now. It might be too much for the small retail of an app and more appropriate for Desktop.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Showing the user how many posts in each topic would be useful to the user.</td>
+                      <td class="align-appendix-tables">None of this has been discussed before now. It might be too much for the small retail of an app and more appropriate for Desktop.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                  </tbody>
+                </table>
 
                   <br><img src="images/appendix-19.png" class="img-responsive"><br>
                   
                   <h3>Calendar</h3>
                   
                   <table width="100%" border="1" cellspacing="2" cellpadding="2">
-  <tbody>
-    <tr>
-      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
-      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
-      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">The date is difficult to read.</td>
-      <td class="align-appendix-tables">This can be increased.</td>
-      <td class="align-appendix-tables">Font size increased.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">What does the check mark do? If it’s showing that the appointment has been kept or that food has been given then we need an item that is not complete to show the difference. </td>
-      <td class="align-appendix-tables">We need something to show you can check it off so I can have an X for those not complete yet?</td>
-      <td class="align-appendix-tables">Check mark removed.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Can the icons on either side of the notification text be moved out slightly as there looks like there is room.</td>
-      <td class="align-appendix-tables">They are hitting the edge of the bootstrap for phones that are edged it would distort so that the edge.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">The text for the notification looks too close to the time and date.</td>
-      <td class="align-appendix-tables">I'll move it out.</td>
-      <td class="align-appendix-tables">Moved.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">When on the calendar page should\could the nav icon change colour\size so the user knows that they are on that page.</td>
-      <td class="align-appendix-tables">Yes I was thinking the same i'll organise that.</td>
-      <td class="align-appendix-tables">Action taken to fix this on all pages that lead off navigation bar.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">There is no way to navigate between months.</td>
-      <td class="align-appendix-tables">Google don’t have a visible sign to navigate between months you swipe.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">We have five dates on the calendar and only three items to view, all three items have the same date.</td>
-      <td class="align-appendix-tables">If you see the date on the 22 is a full circle they are the ones showing to corresponded with the date selected.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Notification icons need to have the option to edit or delete the item not just tick ok.</td>
-      <td class="align-appendix-tables">The Google calendar is like this also you click the notification to go into it, there is no need for have an edit button.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">The edit calendar icon seems a little big and sticks out on it own.</td>
-      <td class="align-appendix-tables">Cool, yeah definitely I can decrease it, I'll note that.</td>
-      <td class="align-appendix-tables">Button decreases in size.</td>
-    </tr>
-  </tbody>
-</table>
+                  <tbody>
+                    <tr>
+                      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
+                      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
+                      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">The date is difficult to read.</td>
+                      <td class="align-appendix-tables">This can be increased.</td>
+                      <td class="align-appendix-tables">Font size increased.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">What does the check mark do? If it’s showing that the appointment has been kept or that food has been given then we need an item that is not complete to show the difference. </td>
+                      <td class="align-appendix-tables">We need something to show you can check it off so I can have an X for those not complete yet?</td>
+                      <td class="align-appendix-tables">Check mark removed.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Can the icons on either side of the notification text be moved out slightly as there looks like there is room.</td>
+                      <td class="align-appendix-tables">They are hitting the edge of the bootstrap for phones that are edged it would distort so that the edge.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">The text for the notification looks too close to the time and date.</td>
+                      <td class="align-appendix-tables">I'll move it out.</td>
+                      <td class="align-appendix-tables">Moved.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">When on the calendar page should\could the nav icon change colour\size so the user knows that they are on that page.</td>
+                      <td class="align-appendix-tables">Yes I was thinking the same i'll organise that.</td>
+                      <td class="align-appendix-tables">Action taken to fix this on all pages that lead off navigation bar.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">There is no way to navigate between months.</td>
+                      <td class="align-appendix-tables">Google don’t have a visible sign to navigate between months you swipe.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">We have five dates on the calendar and only three items to view, all three items have the same date.</td>
+                      <td class="align-appendix-tables">If you see the date on the 22 is a full circle they are the ones showing to corresponded with the date selected.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Notification icons need to have the option to edit or delete the item not just tick ok.</td>
+                      <td class="align-appendix-tables">The Google calendar is like this also you click the notification to go into it, there is no need for have an edit button.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">The edit calendar icon seems a little big and sticks out on it own.</td>
+                      <td class="align-appendix-tables">Cool, yeah definitely I can decrease it, I'll note that.</td>
+                      <td class="align-appendix-tables">Button decreases in size.</td>
+                    </tr>
+                  </tbody>
+                </table>
 
 					<br><img src="images/appendix-20.png" class="img-responsive"><br>
                   
                 <h3>Health Tips</h3>
                   
                   <table width="100%" border="1" cellspacing="2" cellpadding="2">
-  <tbody>
-    <tr>
-      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
-      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
-      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">What does the check mark do?</td>
-      <td class="align-appendix-tables">I can delete it.</td>
-      <td class="align-appendix-tables">Removed the Tick.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">There is a blue line about the navy bar at the top, is that by design? I think it may be on all of them.</td>
-      <td class="align-appendix-tables">There is a blue line under MyOw symptoms, its there by design.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">How does the user search for info on a different animal?</td>
-      <td class="align-appendix-tables">Via the search bar. There are too many types of animals to have a button for each.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">It would be useful if we could see what had been searched, what symptoms had veen entered. Much like pintrest it shows the user all the items they have searched making up their filter.</td>
-      <td class="align-appendix-tables">When you search the words are in the search bar and related topics would appear underneath would be my understanding but as a landing screen you have the A-Z.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-  </tbody>
-</table>
+                  <tbody>
+                    <tr>
+                      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
+                      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
+                      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">What does the check mark do?</td>
+                      <td class="align-appendix-tables">I can delete it.</td>
+                      <td class="align-appendix-tables">Removed the Tick.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">There is a blue line about the navy bar at the top, is that by design? I think it may be on all of them.</td>
+                      <td class="align-appendix-tables">There is a blue line under MyOw symptoms, its there by design.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">How does the user search for info on a different animal?</td>
+                      <td class="align-appendix-tables">Via the search bar. There are too many types of animals to have a button for each.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">It would be useful if we could see what had been searched, what symptoms had veen entered. Much like pintrest it shows the user all the items they have searched making up their filter.</td>
+                      <td class="align-appendix-tables">When you search the words are in the search bar and related topics would appear underneath would be my understanding but as a landing screen you have the A-Z.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                  </tbody>
+                </table>
 			
             <br><img src="images/appendix-21.png" class="img-responsive"><br>
                   
                 <h3>Lost & Found</h3>
                 
                 <table width="100%" border="1" cellspacing="2" cellpadding="2">
-  <tbody>
-    <tr>
-      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
-      <th width="40%" scope="col" class="align-appendix-tables">Designer notes</th>
-      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">It’s not clear why there are two icons with the up arrow, I’m guessing that they are to upload information but why are there two?</td>
-      <td class="align-appendix-tables">Upload profile and upload photo.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">How does the user save the information on the lost pet?</td>
-      <td class="align-appendix-tables">We have not discussed this, why would they need to save it? </td>
-      <td class="align-appendix-tables">Save button added.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">How does the user fill out the form with their own pet’s details? </td>
-      <td class="align-appendix-tables">They don’t, they upload their pet profile information.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Why is there an additional search button on the bottom, why are we not using the search bar that we discussed last week would remain and be used across the pages that needed it?</td>
-      <td class="align-appendix-tables">This is a search for the information they just filled in. if I put a boundary box around it to include the button search that will make it more clear.</td>
-      <td class="align-appendix-tables">The search was put into a boundary box with the form to link them together.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Where can the user toggle between lost and found animals?</td>
-      <td class="align-appendix-tables">Wasn’t sure we had agreed on this for app page, it might be a bit busy.</td>
-      <td class="align-appendix-tables">A toggle section added.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">What media does the lost or found advert push the advert to, where is the option for paid adverts?</td>
-      <td class="align-appendix-tables">This is new to me, paid adverts? From whom?</td>
-      <td class="align-appendix-tables">A direct search function added to browse missing animals. </td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">How does the user describe where the animal was last seen, when it was last seen? There should a map function here.</td>
-      <td class="align-appendix-tables">We have not discussed this.</td>
-      <td class="align-appendix-tables">More details added to form for this option.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">What sex is the animal? </td>
-      <td class="align-appendix-tables">Yep good idea I can add this in.</td>
-      <td class="align-appendix-tables">Added to form.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">What are the contact details for the animal owner? What is the preferred method of contact? </td>
-      <td class="align-appendix-tables">This has not been talked about before now. This is a search function, I would imagine that would be included in a screen when you find the pet.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-  </tbody>
-</table>
+                  <tbody>
+                    <tr>
+                      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
+                      <th width="40%" scope="col" class="align-appendix-tables">Designer notes</th>
+                      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">It’s not clear why there are two icons with the up arrow, I’m guessing that they are to upload information but why are there two?</td>
+                      <td class="align-appendix-tables">Upload profile and upload photo.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">How does the user save the information on the lost pet?</td>
+                      <td class="align-appendix-tables">We have not discussed this, why would they need to save it? </td>
+                      <td class="align-appendix-tables">Save button added.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">How does the user fill out the form with their own pet’s details? </td>
+                      <td class="align-appendix-tables">They don’t, they upload their pet profile information.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Why is there an additional search button on the bottom, why are we not using the search bar that we discussed last week would remain and be used across the pages that needed it?</td>
+                      <td class="align-appendix-tables">This is a search for the information they just filled in. if I put a boundary box around it to include the button search that will make it more clear.</td>
+                      <td class="align-appendix-tables">The search was put into a boundary box with the form to link them together.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Where can the user toggle between lost and found animals?</td>
+                      <td class="align-appendix-tables">Wasn’t sure we had agreed on this for app page, it might be a bit busy.</td>
+                      <td class="align-appendix-tables">A toggle section added.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">What media does the lost or found advert push the advert to, where is the option for paid adverts?</td>
+                      <td class="align-appendix-tables">This is new to me, paid adverts? From whom?</td>
+                      <td class="align-appendix-tables">A direct search function added to browse missing animals. </td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">How does the user describe where the animal was last seen, when it was last seen? There should a map function here.</td>
+                      <td class="align-appendix-tables">We have not discussed this.</td>
+                      <td class="align-appendix-tables">More details added to form for this option.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">What sex is the animal? </td>
+                      <td class="align-appendix-tables">Yep good idea I can add this in.</td>
+                      <td class="align-appendix-tables">Added to form.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">What are the contact details for the animal owner? What is the preferred method of contact? </td>
+                      <td class="align-appendix-tables">This has not been talked about before now. This is a search function, I would imagine that would be included in a screen when you find the pet.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                  </tbody>
+                </table>
 			<br><img src="images/appendix-22.png" class="img-responsive"><br>
                   
                 <h3>Notifications</h3>
                 
                 <table width="100%" border="1" cellspacing="2" cellpadding="2">
-  <tbody>
-    <tr>
-      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
-      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
-      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">As there are 6 notifications should we not have the number 6 (superscript) beside the notification icon? </td>
-      <td class="align-appendix-tables">The 6 would be too small, but I have an icon with a small circle to represent there are notifications there.</td>
-      <td class="align-appendix-tables">A dot has been added to the notification bell.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">The user needs to be able to delete or edit these notifications.</td>
-      <td class="align-appendix-tables">Like with Google you click the notification and go to it and from there you can edit/delete.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Should we allow the use to be able to create a new notification from this page?</td>
-      <td class="align-appendix-tables">Great thought, I was of the same thinking but if we had one it would bring you back to the calendar page hence why I steered off.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-  </tbody>
-</table>
+                  <tbody>
+                    <tr>
+                      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
+                      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
+                      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">As there are 6 notifications should we not have the number 6 (superscript) beside the notification icon? </td>
+                      <td class="align-appendix-tables">The 6 would be too small, but I have an icon with a small circle to represent there are notifications there.</td>
+                      <td class="align-appendix-tables">A dot has been added to the notification bell.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">The user needs to be able to delete or edit these notifications.</td>
+                      <td class="align-appendix-tables">Like with Google you click the notification and go to it and from there you can edit/delete.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Should we allow the use to be able to create a new notification from this page?</td>
+                      <td class="align-appendix-tables">Great thought, I was of the same thinking but if we had one it would bring you back to the calendar page hence why I steered off.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                  </tbody>
+                </table>
 
 				<br><img src="images/appendix-23.png" class="img-responsive"><br>
                   
                 <h3>Pet Profile</h3>
                 
                 <table width="100%" border="1" cellspacing="2" cellpadding="2">
-  <tbody>
-    <tr>
-      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
-      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
-      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">There are different labels here to the Lost and Found for example “animal” as opposed to “Animal Type”</td>
-      <td class="align-appendix-tables">I'll change that to animal type.</td>
-      <td class="align-appendix-tables">Changed.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Where’s the share pet profile button? </td>
-      <td class="align-appendix-tables">I can add it, but I do have it in the menu.</td>
-      <td class="align-appendix-tables">Added to pet profile and removed from menu.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Where is the add a new pet profile button?</td>
-      <td class="align-appendix-tables">I can add one.</td>
-      <td class="align-appendix-tables">New profile button added.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Should we focus on showing all the functionality of the pet profile page rather than showing the notifications again?</td>
-      <td class="align-appendix-tables">This has been discussed that it was wanted on this page, what other functionality can you imagine being here?</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Does the pet profile image need to be so big? </td>
-      <td class="align-appendix-tables">yes/no</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-  </tbody>
-</table>
+                  <tbody>
+                    <tr>
+                      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
+                      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
+                      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">There are different labels here to the Lost and Found for example “animal” as opposed to “Animal Type”</td>
+                      <td class="align-appendix-tables">I'll change that to animal type.</td>
+                      <td class="align-appendix-tables">Changed.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Where’s the share pet profile button? </td>
+                      <td class="align-appendix-tables">I can add it, but I do have it in the menu.</td>
+                      <td class="align-appendix-tables">Added to pet profile and removed from menu.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Where is the add a new pet profile button?</td>
+                      <td class="align-appendix-tables">I can add one.</td>
+                      <td class="align-appendix-tables">New profile button added.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Should we focus on showing all the functionality of the pet profile page rather than showing the notifications again?</td>
+                      <td class="align-appendix-tables">This has been discussed that it was wanted on this page, what other functionality can you imagine being here?</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Does the pet profile image need to be so big? </td>
+                      <td class="align-appendix-tables">yes/no</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                  </tbody>
+                </table>
 	
     		<br><img src="images/appendix-24.png" class="img-responsive"><br>
                   
                 <h3>Menu</h3>
                 
                 <table width="100%" border="1" cellspacing="2" cellpadding="2">
-  <tbody>
-    <tr>
-      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
-      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes </th>
-      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Is “Share Pet Profile” not a sub-action of the “Pet Profile” item, so should it not just be accessible from the pet profile page?</td>
-      <td class="align-appendix-tables">I don't have it on pet profile page at present. </td>
-      <td class="align-appendix-tables">Button removed.</td>
-    </tr>
-  </tbody>
-</table>
+                  <tbody>
+                    <tr>
+                      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
+                      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes </th>
+                      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Is “Share Pet Profile” not a sub-action of the “Pet Profile” item, so should it not just be accessible from the pet profile page?</td>
+                      <td class="align-appendix-tables">I don't have it on pet profile page at present. </td>
+                      <td class="align-appendix-tables">Button removed.</td>
+                    </tr>
+                  </tbody>
+                </table>
 
 			<br><img src="images/appendix-25.png" class="img-responsive"><br>
                   
                 <h3>Vet Finder</h3>
                 
                 <table width="100%" border="1" cellspacing="2" cellpadding="2">
-  <tbody>
-    <tr>
-      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
-      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
-      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Icon to show vet on map should map icon used in app, I think. </td>
-      <td class="align-appendix-tables">I can add one no problem, I was thinking about it.</td>
-      <td class="align-appendix-tables">Icon added.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">The open closed text should be different, for example, open could have a green background and closed could have a red background.</td>
-      <td class="align-appendix-tables">That would add different colours outside the remit but I can change it to the blue/purple.</td>
-      <td class="align-appendix-tables">The colours were changed within the remit of colours being used.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Does the location icon have to be that big? </td>
-      <td class="align-appendix-tables">It can be reduced.</td>
-      <td class="align-appendix-tables">Icon reduced.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Did we not say that we wanted the distance from information to be displayed in the list of available vets? </td>
-      <td class="align-appendix-tables">I don’t recall this, but I can add, I could put it under the open or closed.</td>
-      <td class="align-appendix-tables">Distance added.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Do we need to show the user what vets are closed, this is redundent info. </td>
-      <td class="align-appendix-tables">It is for times of emergency.</td>
-      <td class="align-appendix-tables">No action taken.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">How does the user search for a vet for a different animal? How does the user change the profile to search for an appropriate vet?</td>
-      <td class="align-appendix-tables">It is presuming it is searching for a vet in relationship to your pet profile, we did talk about this before.</td>
-      <td class="align-appendix-tables">No action.</td>
-    </tr>
-    <tr>
-      <td class="align-appendix-tables">Should we tell the user more about each vet, How many km away are they, what is their rating?</td>
-      <td class="align-appendix-tables">I'm adding km in, to find out more about the vet you would click in like with the notifications.</td>
-      <td class="align-appendix-tables">Kilometer information added.</td>
-    </tr>
-  </tbody>
-</table>
+                  <tbody>
+                    <tr>
+                      <th width="40%" scope="col" class="align-appendix-tables">Feedback</th>
+                      <th width="40%" scope="col" class="align-appendix-tables">Designer Notes</th>
+                      <th width="20%" scope="col" class="align-appendix-tables">Resolution</th>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Icon to show vet on map should map icon used in app, I think. </td>
+                      <td class="align-appendix-tables">I can add one no problem, I was thinking about it.</td>
+                      <td class="align-appendix-tables">Icon added.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">The open closed text should be different, for example, open could have a green background and closed could have a red background.</td>
+                      <td class="align-appendix-tables">That would add different colours outside the remit but I can change it to the blue/purple.</td>
+                      <td class="align-appendix-tables">The colours were changed within the remit of colours being used.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Does the location icon have to be that big? </td>
+                      <td class="align-appendix-tables">It can be reduced.</td>
+                      <td class="align-appendix-tables">Icon reduced.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Did we not say that we wanted the distance from information to be displayed in the list of available vets? </td>
+                      <td class="align-appendix-tables">I don’t recall this, but I can add, I could put it under the open or closed.</td>
+                      <td class="align-appendix-tables">Distance added.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Do we need to show the user what vets are closed, this is redundent info. </td>
+                      <td class="align-appendix-tables">It is for times of emergency.</td>
+                      <td class="align-appendix-tables">No action taken.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">How does the user search for a vet for a different animal? How does the user change the profile to search for an appropriate vet?</td>
+                      <td class="align-appendix-tables">It is presuming it is searching for a vet in relationship to your pet profile, we did talk about this before.</td>
+                      <td class="align-appendix-tables">No action.</td>
+                    </tr>
+                    <tr>
+                      <td class="align-appendix-tables">Should we tell the user more about each vet, How many km away are they, what is their rating?</td>
+                      <td class="align-appendix-tables">I'm adding km in, to find out more about the vet you would click in like with the notifications.</td>
+                      <td class="align-appendix-tables">Kilometer information added.</td>
+                    </tr>
+                  </tbody>
+                </table>
 
 			<br><img src="images/appendix-26.png" class="img-responsive"><br>
                   
               </div>
-            </div><!-- end main row 12 -->      
+            </div><!-- end main row 11 -->      
              
-            
         </div><!-- end main content -->
+        
     </div><!-- end main container -->
-    
-    
-            
-              
-            
-          
     
 
     <!-- start fluid container containing bottom navbar and social media/copyright -->
     <div class="container-fluid nav-bg no-gutters" id="bottom-nav-container">
+    
         <!-- start div containing navbar AND copyright/social media -->
         <div class="col-lg-12 no-gutters">      
             <!-- start of bottom navbar -->
@@ -699,7 +690,7 @@
                     <ul class="nav navbar-nav">
                     
                         <!-- active class attached to "current" list item to show what page we are currently on -->
-                        <li class="active"><a href="../index.php">What</a></li>
+                        <li><a href="../index.php">What</a></li>
                         <li><a href="../who/persona-scenario.php">Who</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">How<b class="caret"></b></a>
@@ -727,23 +718,10 @@
                             </ul><!-- end of inner ul -->
                         </li>
                         <li><a href="../references.php">References</a></li>
-                        <li><a href="../appendix/appendix.php">Appendix</a></li>
-                        
-                        <!--
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Section<b class="caret"></b></a>
-                            <!-- a nested unordered list to create a dropdown menu - ->
-                            <!-- start of innder ul - ->
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                            </ul><!-- end of inner ul - ->
-                        </li>
-                        -->
+                        <li class="active"><a href="../appendix/appendix.php">Appendix</a></li>
                     </ul><!-- end of outer ul -->
                 </div><!-- end of list items -->                
               </div><!-- end bottom nav --> 
-        
         
             <!-- start row containing copyright and social media div -->
             <div class="row no-gutters" id="social-media">
@@ -766,18 +744,17 @@
             </div><!-- row containing copyright and social media div -->
             
         </div><!-- end div containing navbar AND copyright/social media -->
+        
     </div><!-- end fluid container containing bottom navbar and social media/copyright -->
  
- 
- 
-    
-    
+     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
     <!-- Custom JS -->
     <script src="../js/custom-scripts.js"></script>
+    
 </body>
 
 </html>
