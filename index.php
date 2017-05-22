@@ -24,14 +24,14 @@
     	Team 23 Digital Direct
         UXCD Assessment 3
         Bootstrap Website
-    -->    
-    
+    -->
 </head>
 
 <body>  
 
     <!-- start fluid container containing logo top fixed navbar -->
     <div class="container-fluid navbar navbar-custom navbar-fixed-top no-gutters">
+    
         <!-- start row containing logo -->
         <div class="row white-bg no-gutters">
             <div class="container white-bg red-bg">
@@ -87,33 +87,21 @@
                             </ul><!-- end of inner ul -->
                         </li>
                         <li><a href="references.php">References</a></li>
-                        <li><a href="appendix/appendix.php">Appendix</a></li>
-                        
-                        <!--
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Section<b class="caret"></b></a>
-                            <!-- a nested unordered list to create a dropdown menu - ->
-                            <!-- start of innder ul - ->
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                        	</ul><!-- end of inner ul - ->
-                        </li>
-                        -->    
+                        <li><a href="appendix/appendix.php">Appendix</a></li> 
                     </ul><!-- end of outer ul -->
                 </div><!-- end of list items -->                
             </div><!-- end top fixed navbar --> 
         </div><!-- end div containing navbar -->
+        
     </div><!-- end fluid container containing logo top fixed navbar -->
     
-    
-    
-       
-        
+         
     <!-- start main container -->
     <div class="container white-bg">  
+    
         <!-- start main content -->
         <div id="main-content">
+        
             <!-- start main row 1 -->
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -127,16 +115,26 @@
             
             <!-- start main row 2 -->
             <div class="row">
-                <!-- start video placeholder -->
+                <!-- start welcome text -->
                 <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-xs-12">
                     <h1 class="no-padding">What is MyOw?</h1>
                     <p>In the MyOw Pet Care App we want the design to provide the user with confidence in the information provided so we are using professional logos which include a medical emblem. We also want to have a low number of screens so that users can quickly and easily access key medical information that may help save their pet’s life. </p>
-                </div><!-- end video placeholder -->
-                
-                <!-- start welcome text -->
-                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 align-justify">
-                	<a href="#"><img src="images/vid-placeholder-big.jpg" class="img-responsive" alt="Video Placeholder"></a>
                 </div><!-- end welcome text -->
+                
+                <!-- start video placeholder -->
+                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 align-justify">
+                	<!-- Assessment 4 Video Placeholder -->
+                	<!-- old image placeholder as submitted for Assignment 3 -->
+                    <!-- <a href="#"><img src="images/vid-placeholder-big.jpg" class="img-responsive" alt="Video Placeholder"></a> -->
+                  	<div class="embed-responsive embed-responsive-16by9">
+    					<!-- vimeo password-protected video as submitted for Assignment 4 -->
+                        <iframe src="https://player.vimeo.com/video/218510991" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <!-- local video -->
+                        <!-- <iframe class="embed-responsive-item" src="videos/MyOw Product Video.mp4"></iframe> -->
+					</div>
+    			</div>
+                  
+                </div><!-- end video placeholder -->
             </div><!-- end main row 2 -->
             
             <!--spacer -->
@@ -144,11 +142,10 @@
             </div><!-- end spacer row -->
             
         </div><!-- end main content -->
+        
     </div><!-- end main container -->
             
-              
-            
-            
+                
     <!-- start fluid middle container -->        
     <div class="container-fluid definition-banner">
         <div class="row">
@@ -213,9 +210,7 @@
            </div>
         </div>
     </div><!-- end fluid middle container -->
-    
-    
-    
+     
     
     <!-- start of 2nd main container -->
     <div class="container">
@@ -230,11 +225,7 @@
             </div>
         </div><!-- end main row 4 -->       
     </div><!-- end of 2nd main container -->
-    
-    
-    
-    
-    
+   
 
     <!-- start fluid container containing bottom navbar and social media/copyright -->
     <div class="container-fluid nav-bg no-gutters" id="bottom-nav-container">
@@ -285,22 +276,9 @@
                         </li>
                         <li><a href="references.php">References</a></li>
                         <li><a href="appendix/appendix.php">Appendix</a></li>
-                        
-                        <!--
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Section<b class="caret"></b></a>
-                            <!-- a nested unordered list to create a dropdown menu - ->
-                            <!-- start of innder ul - ->
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                            </ul><!-- end of inner ul - ->
-                        </li>
-                        -->
                     </ul><!-- end of outer ul -->
                 </div><!-- end of list items -->                
               </div><!-- end bottom nav --> 
-        
         
             <!-- start row containing copyright and social media div -->
             <div class="row no-gutters" id="social-media">
@@ -323,11 +301,9 @@
             </div><!-- row containing copyright and social media div -->
             
         </div><!-- end div containing navbar AND copyright/social media -->
+        
     </div><!-- end fluid container containing bottom navbar and social media/copyright -->
- 
- 
- 
-    
+  
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -335,6 +311,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Custom JS -->
     <script src="js/home-custom-scripts.js"></script>
+    
 </body>
 
 </html>
